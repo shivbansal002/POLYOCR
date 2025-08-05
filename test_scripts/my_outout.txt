@@ -1,0 +1,39 @@
+#output for running the test_rec_en.py file for any 5 images present in dataset iiit5k
+Image: 1002_1.png
+OCR Prediction: PRIVATE
+[2025/06/26 18:25:39] ppocr DEBUG: dt_boxes num : 1, elapse : 0.007165193557739258
+[2025/06/26 18:25:39] ppocr DEBUG: rec_res num  : 1, elapse : 0.07932734489440918
+
+Image: 1002_2.png
+OCR Prediction: PARKING
+[2025/06/26 18:25:39] ppocr DEBUG: dt_boxes num : 1, elapse : 0.006936311721801758
+[2025/06/26 18:25:39] ppocr DEBUG: rec_res num  : 1, elapse : 0.07527446746826172
+
+Image: 1009_1.png
+OCR Prediction: Salutes
+[2025/06/26 18:25:39] ppocr DEBUG: dt_boxes num : 1, elapse : 0.019683837890625
+[2025/06/26 18:25:39] ppocr DEBUG: rec_res num  : 1, elapse : 0.06819772720336914
+
+Image: 100_1.png
+OCR Prediction: DOLCE
+[2025/06/26 18:25:39] ppocr DEBUG: dt_boxes num : 1, elapse : 0.017156124114990234
+[2025/06/26 18:25:39] ppocr DEBUG: rec_res num  : 1, elapse : 0.0632941722869873
+
+Image: 100_2.png
+OCR Prediction: GABBANA
+
+#output on running test_all.py file 
+Found 9 image(s) in test_images
+
+chinese.jpg               →  你好，世界
+english multi line.jpg    →  members may lead to disgualification. Multiple entries for the same team [...]
+english.jpg               →  Hello World
+hindi.png                 →  दाएंसेबाहरिनकलें EXITRIGHT दाएंसेबाहर नकलें
+japanese.png              →  用贺三条通5
+korean.jpg                →  안녕하세요 人刀
+sample.jpg                →  o French: "La vie est un voyage, pas une destination."
+tamil.png                 →  W RECEPTION lhuag அைற வரு ேவற்ப com
+telugu.png                →  చేపమందు
+
+# output on running the test_hi.py file
+Hindi OCR Prediction:  inवiिज़ंदगीएकसफरहमिज़लनही

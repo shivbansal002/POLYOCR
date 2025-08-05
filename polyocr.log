@@ -1,0 +1,1649 @@
+2025-08-01 13:32:09,719 - INFO - Initialized OCR Pipeline on device: cpu
+2025-08-01 13:32:09,720 - INFO - Loading image: /content/drive/MyDrive/PolyOCR_Inputs/00af69e2180ec99677211a42d2eae237.jpg
+2025-08-01 13:32:09,752 - INFO - Applying DnCNN denoising...
+2025-08-01 13:32:09,806 - INFO - Successfully loaded DnCNN model from: /content/drive/MyDrive/PolyOCR_Train_Outputs/Run_20250731_070547/dncnn_finetunedfinal_model.pth
+2025-08-01 13:32:20,399 - INFO - Saved dncnn_denoised image: /content/drive/MyDrive/PolyOCR_Results/00af69e2180ec99677211a42d2eae237_dncnn_denoised.png
+2025-08-01 13:32:23,980 - INFO - Successfully loaded CRAFT model from: /content/drive/MyDrive/OCR/detection/craft_mlt_25k.pth
+2025-08-01 13:32:23,985 - INFO - Performing CRAFT text detection...
+2025-08-01 13:32:30,602 - INFO - Using CRAFT thresholds: text=0.7, link=0.4, low=0.4
+2025-08-01 13:32:30,789 - INFO - Detected 83 text regions
+2025-08-01 13:32:31,427 - INFO - Initializing EasyOCR for languages: ['en', 'hi']
+2025-08-01 13:32:31,427 - WARNING - Using CPU. Note: This module is much faster with a GPU.
+2025-08-01 13:32:35,664 - INFO - Recognizing text from 83 regions using easyocr
+2025-08-01 13:33:27,924 - INFO - Successfully processed 47 regions, skipped 0 invalid regions
+2025-08-01 13:33:27,924 - INFO - Total text blocks recognized: 47
+2025-08-01 13:33:27,932 - INFO - Saved extracted text: /content/drive/MyDrive/PolyOCR_Results/00af69e2180ec99677211a42d2eae237_extracted_text.txt
+2025-08-01 13:33:27,932 - INFO - OCR pipeline completed successfully!
+2025-08-01 13:50:51,679 - INFO - ============================================================
+2025-08-01 13:50:51,680 - INFO - PolyOCR Pipeline Configuration
+2025-08-01 13:50:51,680 - INFO - ============================================================
+2025-08-01 13:50:51,680 - INFO - Image: /content/drive/MyDrive/PolyOCR_Inputs/00af69e2180ec99677211a42d2eae237.jpg
+2025-08-01 13:50:51,680 - INFO - Output Directory: /content/drive/MyDrive/PolyOCR_Results/
+2025-08-01 13:50:51,681 - INFO - Language: en+hi
+2025-08-01 13:50:51,681 - INFO - Recognizer: easyocr
+2025-08-01 13:50:51,681 - INFO - OpenCV Denoise: False
+2025-08-01 13:50:51,681 - INFO - DnCNN Denoise: True
+2025-08-01 13:50:51,681 - INFO - CRAFT Thresholds: text=0.5, link=0.3, low=0.3
+2025-08-01 13:50:51,682 - INFO - Post-processing: False
+2025-08-01 13:50:51,682 - INFO - Visualization: False
+2025-08-01 13:50:51,682 - INFO - ============================================================
+2025-08-01 13:50:51,682 - INFO - Initialized OCR Pipeline on device: cpu
+2025-08-01 13:50:51,684 - INFO - Loading image: /content/drive/MyDrive/PolyOCR_Inputs/00af69e2180ec99677211a42d2eae237.jpg
+2025-08-01 13:50:51,709 - INFO - Applying DnCNN denoising...
+2025-08-01 13:50:51,748 - INFO - Successfully loaded DnCNN model from: /content/drive/MyDrive/PolyOCR_Train_Outputs/Run_20250731_070547/dncnn_finetunedfinal_model.pth
+2025-08-01 13:51:01,724 - INFO - Saved dncnn_denoised image: /content/drive/MyDrive/PolyOCR_Results/00af69e2180ec99677211a42d2eae237_dncnn_denoised.png
+2025-08-01 13:51:06,092 - INFO - Successfully loaded CRAFT model from: /content/drive/MyDrive/OCR/detection/craft_mlt_25k.pth
+2025-08-01 13:51:06,097 - INFO - Performing CRAFT text detection...
+2025-08-01 13:51:06,120 - INFO - Original image size: 544x586
+2025-08-01 13:51:06,121 - INFO - Processing at scale 1.0: 544x586
+2025-08-01 13:51:11,316 - INFO - Using CRAFT thresholds: text=0.5, link=0.3, low=0.3
+2025-08-01 13:51:11,316 - INFO - Detected 84 text regions after filtering
+2025-08-01 13:51:11,738 - INFO - Initializing EasyOCR for languages: ['en', 'hi']
+2025-08-01 13:51:11,739 - WARNING - Using CPU. Note: This module is much faster with a GPU.
+2025-08-01 13:51:15,827 - INFO - Recognizing text from 84 regions using easyocr
+2025-08-01 13:53:33,448 - INFO - Successfully processed 28 regions, skipped 0 invalid regions
+2025-08-01 13:53:33,449 - INFO - Total text blocks recognized: 28
+2025-08-01 13:53:33,456 - INFO - Saved extracted text: /content/drive/MyDrive/PolyOCR_Results/00af69e2180ec99677211a42d2eae237_extracted_text.txt
+2025-08-01 13:53:33,463 - INFO - Saved detection info: /content/drive/MyDrive/PolyOCR_Results/00af69e2180ec99677211a42d2eae237_detection_info.txt
+2025-08-01 13:53:33,463 - INFO - OCR pipeline completed successfully!
+2025-08-01 13:53:33,464 - INFO - Pipeline completed successfully!
+2025-08-01 13:58:19,422 - INFO - ============================================================
+2025-08-01 13:58:19,423 - INFO - PolyOCR Pipeline Configuration
+2025-08-01 13:58:19,423 - INFO - ============================================================
+2025-08-01 13:58:19,424 - INFO - Image: /content/drive/MyDrive/PolyOCR_Inputs/images.jpeg
+2025-08-01 13:58:19,424 - INFO - Output Directory: /content/drive/MyDrive/PolyOCR_Results/
+2025-08-01 13:58:19,424 - INFO - Language: en+hi
+2025-08-01 13:58:19,424 - INFO - Recognizer: easyocr
+2025-08-01 13:58:19,424 - INFO - OpenCV Denoise: False
+2025-08-01 13:58:19,424 - INFO - DnCNN Denoise: True
+2025-08-01 13:58:19,425 - INFO - CRAFT Thresholds: text=0.5, link=0.3, low=0.3
+2025-08-01 13:58:19,425 - INFO - Post-processing: False
+2025-08-01 13:58:19,425 - INFO - Visualization: False
+2025-08-01 13:58:19,425 - INFO - ============================================================
+2025-08-01 13:58:19,425 - INFO - Initialized OCR Pipeline on device: cpu
+2025-08-01 13:58:19,427 - INFO - Loading image: /content/drive/MyDrive/PolyOCR_Inputs/images.jpeg
+2025-08-01 13:58:20,083 - INFO - Applying DnCNN denoising...
+2025-08-01 13:58:20,131 - INFO - Successfully loaded DnCNN model from: /content/drive/MyDrive/PolyOCR_Train_Outputs/Run_20250731_070547/dncnn_finetunedfinal_model.pth
+2025-08-01 13:58:22,366 - INFO - Saved dncnn_denoised image: /content/drive/MyDrive/PolyOCR_Results/images_dncnn_denoised.png
+2025-08-01 13:58:25,514 - INFO - Successfully loaded CRAFT model from: /content/drive/MyDrive/OCR/detection/craft_mlt_25k.pth
+2025-08-01 13:58:25,519 - INFO - Performing CRAFT text detection...
+2025-08-01 13:58:25,521 - INFO - Original image size: 275x183
+2025-08-01 13:58:25,521 - WARNING - No boxes detected with default thresholds, trying lower thresholds...
+2025-08-01 13:58:26,355 - INFO - Using CRAFT thresholds: text=0.5, link=0.3, low=0.3
+2025-08-01 13:58:26,355 - INFO - Detected 4 text regions after filtering
+2025-08-01 13:58:26,771 - INFO - Initializing EasyOCR for languages: ['en', 'hi']
+2025-08-01 13:58:26,772 - WARNING - Using CPU. Note: This module is much faster with a GPU.
+2025-08-01 13:58:30,910 - INFO - Recognizing text from 4 regions using easyocr
+2025-08-01 13:58:39,884 - INFO - Successfully processed 4 regions, skipped 0 invalid regions
+2025-08-01 13:58:39,885 - INFO - Total text blocks recognized: 4
+2025-08-01 13:58:39,891 - INFO - Saved extracted text: /content/drive/MyDrive/PolyOCR_Results/images_extracted_text.txt
+2025-08-01 13:58:39,910 - INFO - Saved detection info: /content/drive/MyDrive/PolyOCR_Results/images_detection_info.txt
+2025-08-01 13:58:39,911 - INFO - OCR pipeline completed successfully!
+2025-08-01 13:58:39,912 - INFO - Pipeline completed successfully!
+2025-08-01 14:01:14,621 - INFO - ============================================================
+2025-08-01 14:01:14,622 - INFO - PolyOCR Pipeline Configuration
+2025-08-01 14:01:14,622 - INFO - ============================================================
+2025-08-01 14:01:14,622 - INFO - Image: /content/drive/MyDrive/PolyOCR_Inputs/WhatsApp Image 2025-07-31 at 22.39.31.jpeg
+2025-08-01 14:01:14,623 - INFO - Output Directory: /content/drive/MyDrive/PolyOCR_Results/
+2025-08-01 14:01:14,623 - INFO - Language: en+hi
+2025-08-01 14:01:14,623 - INFO - Recognizer: easyocr
+2025-08-01 14:01:14,623 - INFO - OpenCV Denoise: False
+2025-08-01 14:01:14,623 - INFO - DnCNN Denoise: True
+2025-08-01 14:01:14,623 - INFO - CRAFT Thresholds: text=0.5, link=0.3, low=0.3
+2025-08-01 14:01:14,624 - INFO - Post-processing: False
+2025-08-01 14:01:14,624 - INFO - Visualization: False
+2025-08-01 14:01:14,624 - INFO - ============================================================
+2025-08-01 14:01:14,624 - INFO - Initialized OCR Pipeline on device: cpu
+2025-08-01 14:01:14,625 - INFO - Loading image: /content/drive/MyDrive/PolyOCR_Inputs/WhatsApp Image 2025-07-31 at 22.39.31.jpeg
+2025-08-01 14:01:15,075 - INFO - Applying DnCNN denoising...
+2025-08-01 14:01:15,111 - INFO - Successfully loaded DnCNN model from: /content/drive/MyDrive/PolyOCR_Train_Outputs/Run_20250731_070547/dncnn_finetunedfinal_model.pth
+2025-08-01 14:02:10,898 - INFO - Saved dncnn_denoised image: /content/drive/MyDrive/PolyOCR_Results/WhatsApp Image 2025-07-31 at 22.39.31_dncnn_denoised.png
+2025-08-01 14:02:13,538 - INFO - Successfully loaded CRAFT model from: /content/drive/MyDrive/OCR/detection/craft_mlt_25k.pth
+2025-08-01 14:02:13,546 - INFO - Performing CRAFT text detection...
+2025-08-01 14:02:13,569 - INFO - Original image size: 1280x1280
+2025-08-01 14:02:13,570 - INFO - Processing at scale 1.0: 1280x1280
+2025-08-01 14:02:43,537 - INFO - Processing at scale 0.75: 960x960
+2025-08-01 14:03:02,447 - INFO - Processing at scale 0.5: 640x640
+2025-08-01 14:03:09,256 - INFO - Using CRAFT thresholds: text=0.5, link=0.3, low=0.3
+2025-08-01 14:03:09,256 - INFO - Detected 21 text regions after filtering
+2025-08-01 14:03:09,677 - INFO - Initializing EasyOCR for languages: ['en', 'hi']
+2025-08-01 14:03:09,677 - WARNING - Using CPU. Note: This module is much faster with a GPU.
+2025-08-01 14:03:13,649 - INFO - Recognizing text from 21 regions using easyocr
+2025-08-01 14:03:43,673 - INFO - Successfully processed 17 regions, skipped 0 invalid regions
+2025-08-01 14:03:43,673 - INFO - Total text blocks recognized: 17
+2025-08-01 14:03:43,680 - INFO - Saved extracted text: /content/drive/MyDrive/PolyOCR_Results/WhatsApp Image 2025-07-31 at 22.39.31_extracted_text.txt
+2025-08-01 14:03:43,688 - INFO - Saved detection info: /content/drive/MyDrive/PolyOCR_Results/WhatsApp Image 2025-07-31 at 22.39.31_detection_info.txt
+2025-08-01 14:03:43,688 - INFO - OCR pipeline completed successfully!
+2025-08-01 14:03:43,691 - INFO - Pipeline completed successfully!
+2025-08-01 14:11:23,783 - INFO - ============================================================
+2025-08-01 14:11:23,784 - INFO - PolyOCR Pipeline Configuration
+2025-08-01 14:11:23,784 - INFO - ============================================================
+2025-08-01 14:11:23,785 - INFO - Image: /content/drive/MyDrive/PolyOCR_Inputs/Word_Tamil.svg.png
+2025-08-01 14:11:23,785 - INFO - Output Directory: /content/drive/MyDrive/PolyOCR_Results/
+2025-08-01 14:11:23,785 - INFO - Language: en+hi
+2025-08-01 14:11:23,785 - INFO - Recognizer: easyocr
+2025-08-01 14:11:23,785 - INFO - OpenCV Denoise: False
+2025-08-01 14:11:23,785 - INFO - DnCNN Denoise: True
+2025-08-01 14:11:23,786 - INFO - CRAFT Thresholds: text=0.5, link=0.3, low=0.3
+2025-08-01 14:11:23,787 - INFO - Post-processing: False
+2025-08-01 14:11:23,787 - INFO - Visualization: False
+2025-08-01 14:11:23,787 - INFO - ============================================================
+2025-08-01 14:11:23,788 - INFO - Initialized OCR Pipeline on device: cpu
+2025-08-01 14:11:23,789 - INFO - Loading image: /content/drive/MyDrive/PolyOCR_Inputs/Word_Tamil.svg.png
+2025-08-01 14:11:24,339 - INFO - Applying DnCNN denoising...
+2025-08-01 14:11:24,395 - INFO - Successfully loaded DnCNN model from: /content/drive/MyDrive/PolyOCR_Train_Outputs/Run_20250731_070547/dncnn_finetunedfinal_model.pth
+2025-08-01 14:11:47,758 - INFO - Saved dncnn_denoised image: /content/drive/MyDrive/PolyOCR_Results/Word_Tamil.svg_dncnn_denoised.png
+2025-08-01 14:11:51,404 - INFO - Successfully loaded CRAFT model from: /content/drive/MyDrive/OCR/detection/craft_mlt_25k.pth
+2025-08-01 14:11:51,410 - INFO - Performing CRAFT text detection...
+2025-08-01 14:11:51,419 - INFO - Original image size: 1200x600
+2025-08-01 14:11:51,419 - INFO - Processing at scale 1.0: 1200x600
+2025-08-01 14:12:03,621 - INFO - Processing at scale 0.75: 900x450
+2025-08-01 14:12:11,480 - WARNING - No boxes detected with default thresholds, trying lower thresholds...
+2025-08-01 14:12:16,284 - INFO - Using CRAFT thresholds: text=0.5, link=0.3, low=0.3
+2025-08-01 14:12:16,284 - INFO - Detected 0 text regions after filtering
+2025-08-01 14:12:16,284 - WARNING - No text regions detected, using full image
+2025-08-01 14:12:16,708 - INFO - Initializing EasyOCR for languages: ['en', 'hi']
+2025-08-01 14:12:16,708 - WARNING - Using CPU. Note: This module is much faster with a GPU.
+2025-08-01 14:12:22,392 - INFO - Recognizing text from 1 regions using easyocr
+2025-08-01 14:12:45,216 - INFO - Successfully processed 0 regions, skipped 0 invalid regions
+2025-08-01 14:12:45,217 - INFO - Total text blocks recognized: 0
+2025-08-01 14:12:45,217 - WARNING - Poor recognition results, trying alternative approaches...
+2025-08-01 14:12:45,218 - INFO - Trying alternative recognition approaches...
+2025-08-01 14:12:45,225 - INFO - Initializing EasyOCR for languages: ['en', 'hi']
+2025-08-01 14:12:45,226 - WARNING - Using CPU. Note: This module is much faster with a GPU.
+2025-08-01 14:12:50,705 - INFO - Recognizing text from 1 regions using easyocr
+2025-08-01 14:13:13,663 - INFO - Successfully processed 0 regions, skipped 0 invalid regions
+2025-08-01 14:13:13,663 - INFO - Total text blocks recognized: 0
+2025-08-01 14:13:13,663 - INFO - Alternative approach 'high_contrast' produced 0 alphanumeric characters
+2025-08-01 14:13:13,665 - INFO - Initializing EasyOCR for languages: ['en', 'hi']
+2025-08-01 14:13:13,665 - WARNING - Using CPU. Note: This module is much faster with a GPU.
+2025-08-01 14:13:19,031 - INFO - Recognizing text from 1 regions using easyocr
+2025-08-01 14:13:40,654 - INFO - Successfully processed 0 regions, skipped 0 invalid regions
+2025-08-01 14:13:40,655 - INFO - Total text blocks recognized: 0
+2025-08-01 14:13:40,655 - INFO - Alternative approach 'binary' produced 0 alphanumeric characters
+2025-08-01 14:13:40,656 - INFO - Initializing EasyOCR for languages: ['en', 'hi']
+2025-08-01 14:13:40,656 - WARNING - Using CPU. Note: This module is much faster with a GPU.
+2025-08-01 14:13:42,922 - INFO - Pipeline interrupted by user
+2025-08-01 14:22:42,343 - INFO - ============================================================
+2025-08-01 14:22:42,344 - INFO - PolyOCR Pipeline Configuration
+2025-08-01 14:22:42,344 - INFO - ============================================================
+2025-08-01 14:22:42,344 - INFO - Image: /content/drive/MyDrive/PolyOCR_Inputs/WhatsApp Image 2025-07-31 at 22.39.31.jpeg
+2025-08-01 14:22:42,345 - INFO - Output Directory: /content/drive/MyDrive/PolyOCR_Results/
+2025-08-01 14:22:42,345 - INFO - Language: en+hi
+2025-08-01 14:22:42,345 - INFO - Recognizer: easyocr
+2025-08-01 14:22:42,345 - INFO - OpenCV Denoise: False
+2025-08-01 14:22:42,345 - INFO - DnCNN Denoise: True
+2025-08-01 14:22:42,345 - INFO - CRAFT Thresholds: text=0.5, link=0.3, low=0.3
+2025-08-01 14:22:42,345 - INFO - Post-processing: False
+2025-08-01 14:22:42,346 - INFO - Visualization: False
+2025-08-01 14:22:42,346 - INFO - ============================================================
+2025-08-01 14:22:42,346 - INFO - Initialized OCR Pipeline on device: cpu
+2025-08-01 14:22:42,347 - INFO - Loading image: /content/drive/MyDrive/PolyOCR_Inputs/WhatsApp Image 2025-07-31 at 22.39.31.jpeg
+2025-08-01 14:22:42,396 - INFO - Applying DnCNN denoising...
+2025-08-01 14:22:42,441 - INFO - Successfully loaded DnCNN model from: /content/drive/MyDrive/PolyOCR_Train_Outputs/Run_20250731_070547/dncnn_finetunedfinal_model.pth
+2025-08-01 14:23:38,049 - INFO - Saved dncnn_denoised image: /content/drive/MyDrive/PolyOCR_Results/WhatsApp Image 2025-07-31 at 22.39.31_dncnn_denoised.png
+2025-08-01 14:23:41,924 - INFO - Successfully loaded CRAFT model from: /content/drive/MyDrive/OCR/detection/craft_mlt_25k.pth
+2025-08-01 14:23:41,930 - INFO - Performing CRAFT text detection...
+2025-08-01 14:23:41,946 - INFO - Original image size: 1280x1280
+2025-08-01 14:23:41,946 - INFO - Processing at scale 1.0: 1280x1280
+2025-08-01 14:24:12,554 - INFO - Processing at scale 0.75: 960x960
+2025-08-01 14:24:29,073 - INFO - Processing at scale 0.5: 640x640
+2025-08-01 14:24:36,189 - INFO - Using CRAFT thresholds: text=0.5, link=0.3, low=0.3
+2025-08-01 14:24:36,190 - INFO - Detected 21 text regions after filtering
+2025-08-01 14:24:36,777 - INFO - Initializing EasyOCR for languages: ['en', 'hi']
+2025-08-01 14:24:36,777 - WARNING - Using CPU. Note: This module is much faster with a GPU.
+2025-08-01 14:24:40,947 - INFO - Recognizing text from 21 regions using easyocr
+2025-08-01 14:25:10,659 - INFO - Successfully processed 17 regions, skipped 0 invalid regions
+2025-08-01 14:25:10,660 - INFO - Total text blocks recognized: 17
+2025-08-01 14:25:10,666 - INFO - Saved extracted text: /content/drive/MyDrive/PolyOCR_Results/WhatsApp Image 2025-07-31 at 22.39.31_extracted_text.txt
+2025-08-01 14:25:10,672 - INFO - Saved detection info: /content/drive/MyDrive/PolyOCR_Results/WhatsApp Image 2025-07-31 at 22.39.31_detection_info.txt
+2025-08-01 14:25:10,673 - INFO - OCR pipeline completed successfully!
+2025-08-01 14:25:10,674 - INFO - Pipeline completed successfully!
+2025-08-01 14:28:02,209 - INFO - ============================================================
+2025-08-01 14:28:02,210 - INFO - PolyOCR Pipeline Configuration
+2025-08-01 14:28:02,210 - INFO - ============================================================
+2025-08-01 14:28:02,210 - INFO - Image: /content/drive/MyDrive/PolyOCR_Inputs/WhatsApp Image 2025-07-31 at 22.39.31.jpeg
+2025-08-01 14:28:02,211 - INFO - Output Directory: /content/drive/MyDrive/PolyOCR_Results/
+2025-08-01 14:28:02,211 - ERROR - Unexpected error: 'Namespace' object has no attribute 'lang'
+2025-08-01 15:01:23,429 - INFO - ============================================================
+2025-08-01 15:01:23,430 - INFO - PolyOCR Pipeline Configuration
+2025-08-01 15:01:23,430 - INFO - ============================================================
+2025-08-01 15:01:23,430 - INFO - Image: /content/drive/MyDrive/PolyOCR_Inputs/WhatsApp Image 2025-07-31 at 22.39.31.jpeg/
+2025-08-01 15:01:23,430 - INFO - Output Directory: /content/drive/MyDrive/PolyOCR_Results/
+2025-08-01 15:01:23,431 - INFO - Language: en
+2025-08-01 15:01:23,431 - INFO - Recognizer: easyocr
+2025-08-01 15:01:23,431 - INFO - OpenCV Denoise: False
+2025-08-01 15:01:23,431 - INFO - DnCNN Denoise: True
+2025-08-01 15:01:23,431 - INFO - CRAFT Thresholds: text=0.5, link=0.3, low=0.3
+2025-08-01 15:01:23,431 - INFO - Post-processing: True
+2025-08-01 15:01:23,431 - INFO - Visualization: True
+2025-08-01 15:01:23,431 - INFO - ============================================================
+2025-08-01 15:01:23,432 - INFO - Initialized OCR Pipeline on device: cpu
+2025-08-01 15:01:23,432 - ERROR - Pipeline failed: Image file not found: /content/drive/MyDrive/PolyOCR_Inputs/WhatsApp Image 2025-07-31 at 22.39.31.jpeg/
+2025-08-01 15:01:23,433 - ERROR - OCR Pipeline Error: Image file not found: /content/drive/MyDrive/PolyOCR_Inputs/WhatsApp Image 2025-07-31 at 22.39.31.jpeg/
+2025-08-01 15:01:58,344 - INFO - ============================================================
+2025-08-01 15:01:58,345 - INFO - PolyOCR Pipeline Configuration
+2025-08-01 15:01:58,345 - INFO - ============================================================
+2025-08-01 15:01:58,345 - INFO - Image: /content/drive/MyDrive/PolyOCR_Inputs/WhatsApp Image 2025-07-31 at 22.39.31.jpeg
+2025-08-01 15:01:58,345 - INFO - Output Directory: /content/drive/MyDrive/PolyOCR_Results/
+2025-08-01 15:01:58,345 - INFO - Language: en
+2025-08-01 15:01:58,345 - INFO - Recognizer: easyocr
+2025-08-01 15:01:58,346 - INFO - OpenCV Denoise: False
+2025-08-01 15:01:58,346 - INFO - DnCNN Denoise: True
+2025-08-01 15:01:58,346 - INFO - CRAFT Thresholds: text=0.5, link=0.3, low=0.3
+2025-08-01 15:01:58,346 - INFO - Post-processing: True
+2025-08-01 15:01:58,346 - INFO - Visualization: True
+2025-08-01 15:01:58,346 - INFO - ============================================================
+2025-08-01 15:01:58,347 - INFO - Initialized OCR Pipeline on device: cpu
+2025-08-01 15:01:58,349 - INFO - Loading image: /content/drive/MyDrive/PolyOCR_Inputs/WhatsApp Image 2025-07-31 at 22.39.31.jpeg
+2025-08-01 15:01:58,401 - INFO - Applying DnCNN denoising...
+2025-08-01 15:01:58,446 - INFO - Successfully loaded DnCNN model from: /content/drive/MyDrive/PolyOCR_Train_Outputs/Run_20250731_070547/dncnn_finetunedfinal_model.pth
+2025-08-01 15:02:15,626 - INFO - Pipeline interrupted by user
+2025-08-01 15:02:34,012 - INFO - ============================================================
+2025-08-01 15:02:34,013 - INFO - PolyOCR Pipeline Configuration
+2025-08-01 15:02:34,014 - INFO - ============================================================
+2025-08-01 15:02:34,014 - INFO - Image: /content/drive/MyDrive/PolyOCR_Inputs/WhatsApp Image 2025-07-31 at 22.39.31.jpeg
+2025-08-01 15:02:34,014 - INFO - Output Directory: /content/drive/MyDrive/PolyOCR_Results/
+2025-08-01 15:02:34,014 - INFO - Language: en
+2025-08-01 15:02:34,014 - INFO - Recognizer: easyocr
+2025-08-01 15:02:34,015 - INFO - OpenCV Denoise: False
+2025-08-01 15:02:34,015 - INFO - DnCNN Denoise: True
+2025-08-01 15:02:34,015 - INFO - CRAFT Thresholds: text=0.5, link=0.3, low=0.3
+2025-08-01 15:02:34,015 - INFO - Post-processing: True
+2025-08-01 15:02:34,015 - INFO - Visualization: True
+2025-08-01 15:02:34,015 - INFO - ============================================================
+2025-08-01 15:02:34,016 - INFO - Initialized OCR Pipeline on device: cpu
+2025-08-01 15:02:34,017 - INFO - Loading image: /content/drive/MyDrive/PolyOCR_Inputs/WhatsApp Image 2025-07-31 at 22.39.31.jpeg
+2025-08-01 15:02:34,057 - INFO - Applying DnCNN denoising...
+2025-08-01 15:02:34,090 - INFO - Successfully loaded DnCNN model from: /content/drive/MyDrive/PolyOCR_Train_Outputs/Run_20250731_070547/dncnn_finetunedfinal_model.pth
+2025-08-01 15:02:56,831 - INFO - Pipeline interrupted by user
+2025-08-01 15:10:45,028 - INFO - ============================================================
+2025-08-01 15:10:45,029 - INFO - PolyOCR Pipeline Configuration
+2025-08-01 15:10:45,029 - INFO - ============================================================
+2025-08-01 15:10:45,029 - INFO - Image: /content/drive/MyDrive/PolyOCR_Inputs/images.jpeg
+2025-08-01 15:10:45,030 - INFO - Output Directory: /content/drive/MyDrive/PolyOCR_Results/
+2025-08-01 15:10:45,030 - INFO - Language: en
+2025-08-01 15:10:45,030 - INFO - Recognizer: easyocr
+2025-08-01 15:10:45,030 - INFO - OpenCV Denoise: False
+2025-08-01 15:10:45,030 - INFO - DnCNN Denoise: True
+2025-08-01 15:10:45,030 - INFO - CRAFT Thresholds: text=0.5, link=0.3, low=0.3
+2025-08-01 15:10:45,031 - INFO - Post-processing: True
+2025-08-01 15:10:45,031 - INFO - Visualization: True
+2025-08-01 15:10:45,031 - INFO - ============================================================
+2025-08-01 15:10:45,031 - INFO - Initialized OCR Pipeline on device: cpu
+2025-08-01 15:10:45,033 - INFO - Loading image: /content/drive/MyDrive/PolyOCR_Inputs/images.jpeg
+2025-08-01 15:10:45,497 - INFO - Applying DnCNN denoising...
+2025-08-01 15:10:45,535 - INFO - Successfully loaded DnCNN model from: /content/drive/MyDrive/PolyOCR_Train_Outputs/Run_20250731_070547/dncnn_finetunedfinal_model.pth
+2025-08-01 15:10:47,046 - INFO - Saved dncnn_denoised image: /content/drive/MyDrive/PolyOCR_Results/images_dncnn_denoised.png
+2025-08-01 15:10:51,398 - INFO - Successfully loaded CRAFT model from: /content/drive/MyDrive/OCR/detection/craft_mlt_25k.pth
+2025-08-01 15:10:51,403 - INFO - Performing CRAFT text detection...
+2025-08-01 15:10:51,406 - INFO - Original image size: 275x183
+2025-08-01 15:10:51,406 - WARNING - No boxes detected with default thresholds, trying lower thresholds...
+2025-08-01 15:10:52,243 - INFO - Using CRAFT thresholds: text=0.5, link=0.3, low=0.3
+2025-08-01 15:10:52,243 - INFO - Detected 4 text regions after filtering
+2025-08-01 15:10:52,673 - INFO - Initializing EasyOCR for languages: ['en']
+2025-08-01 15:10:52,674 - WARNING - Using CPU. Note: This module is much faster with a GPU.
+2025-08-01 15:10:56,309 - INFO - Recognizing text from 4 regions using easyocr
+2025-08-01 15:10:57,059 - INFO - Successfully processed 4 regions, skipped 0 invalid regions
+2025-08-01 15:10:57,060 - INFO - Total text blocks recognized: 4
+2025-08-01 15:10:59,812 - INFO - NumExpr defaulting to 2 threads.
+2025-08-01 15:11:27,910 - INFO - Pipeline interrupted by user
+2025-08-02 11:55:02,672 - INFO - ================================================================================
+2025-08-02 11:55:03,530 - INFO - ENHANCED POLYOCR PIPELINE CONFIGURATION
+2025-08-02 11:55:03,530 - INFO - ================================================================================
+2025-08-02 11:55:03,530 - INFO - 📷 Image: /content/drive/MyDrive/PolyOCR_Inputs/images.jpeg
+2025-08-02 11:55:03,530 - INFO - 📁 Output Directory: /content/drive/MyDrive/PolyOCR_Results/
+2025-08-02 11:55:03,530 - INFO - 🌍 Languages: hi+bn+te+ta+gu+kn+ml+en+zh+ja+ar+fr
+2025-08-02 11:55:03,530 - INFO - 🔧 Recognizer: easyocr
+2025-08-02 11:55:03,531 - INFO - 📐 Format Preservation: True
+2025-08-02 11:55:03,531 - INFO - 🌐 Translation Target: en
+2025-08-02 11:55:03,531 - INFO - 🧹 OpenCV Denoise: True
+2025-08-02 11:55:03,531 - INFO - 🧹 DnCNN Denoise: False
+2025-08-02 11:55:03,531 - INFO - 🎯 CRAFT Thresholds: text=0.4, link=0.2, low=0.2
+2025-08-02 11:55:03,531 - INFO - ⚙️  Post-processing: True
+2025-08-02 11:55:03,531 - INFO - 🎨 Visualization: True
+2025-08-02 11:55:03,531 - INFO - ================================================================================
+2025-08-02 11:55:03,608 - WARNING - Failed to load FastText model: module 'fasttext' has no attribute 'util'
+2025-08-02 11:55:03,608 - INFO - Initialized Enhanced OCR Pipeline on device: cuda
+2025-08-02 11:55:03,608 - INFO - Supported Languages:
+2025-08-02 11:55:03,609 - INFO - Indian Languages: hi (Hindi (हिंदी)), bn (Bengali (বাংলা)), te (Telugu (తెలుగు)), ta (Tamil (தமிழ்)), gu (Gujarati (ગુજરાતી)), kn (Kannada (ಕನ್ನಡ)), ml (Malayalam (മലയാളം))
+2025-08-02 11:55:03,609 - INFO - Foreign Languages: en (English), zh (Chinese (中文)), ja (Japanese (日本語)), ar (Arabic (العربية)), fr (French (Français))
+2025-08-02 11:55:03,609 - INFO - Loading image: /content/drive/MyDrive/PolyOCR_Inputs/images.jpeg
+2025-08-02 11:55:05,218 - INFO - Applying OpenCV denoising...
+2025-08-02 11:55:07,245 - INFO - Saved opencv_denoised image: /content/drive/MyDrive/PolyOCR_Results/images_opencv_denoised.png
+2025-08-02 11:55:20,342 - INFO - Successfully loaded CRAFT model from: /content/drive/MyDrive/OCR/detection/craft_mlt_25k.pth
+2025-08-02 11:55:21,212 - INFO - Performing CRAFT text detection...
+2025-08-02 11:55:21,218 - INFO - Original image size: 360x239
+2025-08-02 11:55:21,218 - WARNING - No boxes detected with default thresholds, trying lower thresholds...
+2025-08-02 11:55:21,686 - INFO - Using CRAFT thresholds: text=0.4, link=0.2, low=0.2
+2025-08-02 11:55:21,686 - INFO - Detected 4 text regions after filtering
+2025-08-02 11:55:21,686 - INFO - Using languages: ['Hindi (हिंदी)', 'Bengali (বাংলা)', 'Telugu (తెలుగు)', 'Tamil (தமிழ்)', 'Gujarati (ગુજરાતી)', 'Kannada (ಕನ್ನಡ)', 'Malayalam (മലയാളം)', 'English', 'Chinese (中文)', 'Japanese (日本語)', 'Arabic (العربية)', 'French (Français)']
+2025-08-02 11:55:21,686 - WARNING - Failed to load FastText model: module 'fasttext' has no attribute 'util'
+2025-08-02 11:55:22,313 - INFO - Initializing EasyOCR for languages: ['hi', 'bn', 'te', 'ta', 'gu', 'kn', 'ml', 'en', 'ch_sim', 'ja', 'ar', 'fr']
+2025-08-02 11:55:22,314 - WARNING - Downloading detection model, please wait. This may take several minutes depending upon your network connection.
+2025-08-02 11:55:28,930 - INFO - Download complete
+2025-08-02 11:55:28,931 - ERROR - Pipeline failed: ({'gu', 'ml'}, 'is not supported')
+2025-08-02 11:55:28,932 - ERROR - ❌ Unexpected error: ({'gu', 'ml'}, 'is not supported')
+2025-08-02 11:58:19,138 - INFO - ================================================================================
+2025-08-02 11:58:19,139 - INFO - ENHANCED POLYOCR PIPELINE CONFIGURATION
+2025-08-02 11:58:19,139 - INFO - ================================================================================
+2025-08-02 11:58:19,139 - INFO - 📷 Image: /content/drive/MyDrive/PolyOCR_Inputs/your_document_image.png
+2025-08-02 11:58:19,140 - INFO - 📁 Output Directory: /content/drive/MyDrive/PolyOCR_Results/
+2025-08-02 11:58:19,140 - INFO - 🌍 Languages: hi+bn+te+ta+gu+kn+ml+en+zh+ja+ar+fr
+2025-08-02 11:58:19,140 - INFO - 🔧 Recognizer: easyocr
+2025-08-02 11:58:19,140 - INFO - 📐 Format Preservation: True
+2025-08-02 11:58:19,140 - INFO - 🌐 Translation Target: en
+2025-08-02 11:58:19,140 - INFO - 🧹 OpenCV Denoise: True
+2025-08-02 11:58:19,140 - INFO - 🧹 DnCNN Denoise: False
+2025-08-02 11:58:19,140 - INFO - 🎯 CRAFT Thresholds: text=0.4, link=0.2, low=0.2
+2025-08-02 11:58:19,141 - INFO - ⚙️  Post-processing: True
+2025-08-02 11:58:19,141 - INFO - 🎨 Visualization: True
+2025-08-02 11:58:19,141 - INFO - ================================================================================
+2025-08-02 11:58:19,162 - WARNING - Failed to load FastText model: module 'fasttext' has no attribute 'util'
+2025-08-02 11:58:19,163 - INFO - Initialized Enhanced OCR Pipeline on device: cuda
+2025-08-02 11:58:19,163 - INFO - Supported Languages:
+2025-08-02 11:58:19,163 - INFO - Indian Languages: hi (Hindi (हिंदी)), bn (Bengali (বাংলা)), te (Telugu (తెలుగు)), ta (Tamil (தமிழ்)), gu (Gujarati (ગુજરાતી)), kn (Kannada (ಕನ್ನಡ)), ml (Malayalam (മലയാളം))
+2025-08-02 11:58:19,163 - INFO - Foreign Languages: en (English), zh (Chinese (中文)), ja (Japanese (日本語)), ar (Arabic (العربية)), fr (French (Français))
+2025-08-02 11:58:19,164 - INFO - Loading image: /content/drive/MyDrive/PolyOCR_Inputs/your_document_image.png
+2025-08-02 11:58:20,770 - INFO - Applying OpenCV denoising...
+2025-08-02 11:58:21,306 - INFO - Saved opencv_denoised image: /content/drive/MyDrive/PolyOCR_Results/your_document_image_opencv_denoised.png
+2025-08-02 11:58:23,834 - INFO - Successfully loaded CRAFT model from: /content/drive/MyDrive/OCR/detection/craft_mlt_25k.pth
+2025-08-02 11:58:23,840 - INFO - Performing CRAFT text detection...
+2025-08-02 11:58:23,841 - INFO - Original image size: 554x256
+2025-08-02 11:58:23,841 - WARNING - No boxes detected with default thresholds, trying lower thresholds...
+2025-08-02 11:58:24,067 - INFO - Using CRAFT thresholds: text=0.4, link=0.2, low=0.2
+2025-08-02 11:58:24,068 - INFO - Detected 4 text regions after filtering
+2025-08-02 11:58:24,068 - INFO - Using languages: ['Hindi (हिंदी)', 'Bengali (বাংলা)', 'Telugu (తెలుగు)', 'Tamil (தமிழ்)', 'Gujarati (ગુજરાતી)', 'Kannada (ಕನ್ನಡ)', 'Malayalam (മലയാളം)', 'English', 'Chinese (中文)', 'Japanese (日本語)', 'Arabic (العربية)', 'French (Français)']
+2025-08-02 11:58:24,068 - WARNING - Failed to load FastText model: module 'fasttext' has no attribute 'util'
+2025-08-02 11:58:24,405 - INFO - Initializing EasyOCR for languages: ['hi', 'bn', 'te', 'ta', 'gu', 'kn', 'ml', 'en', 'ch_sim', 'ja', 'ar', 'fr']
+2025-08-02 11:58:24,579 - ERROR - Pipeline failed: ({'ml', 'gu'}, 'is not supported')
+2025-08-02 11:58:24,580 - ERROR - ❌ Unexpected error: ({'ml', 'gu'}, 'is not supported')
+2025-08-02 12:07:22,138 - INFO - ================================================================================
+2025-08-02 12:07:22,138 - INFO - ENHANCED POLYOCR PIPELINE CONFIGURATION
+2025-08-02 12:07:22,139 - INFO - ================================================================================
+2025-08-02 12:07:22,139 - INFO - 📷 Image: /content/drive/MyDrive/PolyOCR_Inputs/your_document_image.png
+2025-08-02 12:07:22,139 - INFO - 📁 Output Directory: /content/drive/MyDrive/PolyOCR_Results/
+2025-08-02 12:07:22,139 - INFO - 🌍 Languages: hi+bn+te+ta+gu+kn+ml+en+zh+ja+ar+fr
+2025-08-02 12:07:22,139 - INFO - 🔧 Recognizer: easyocr
+2025-08-02 12:07:22,139 - INFO - 📐 Format Preservation: True
+2025-08-02 12:07:22,140 - INFO - 🌐 Translation Target: en
+2025-08-02 12:07:22,140 - INFO - 🧹 OpenCV Denoise: True
+2025-08-02 12:07:22,140 - INFO - 🧹 DnCNN Denoise: False
+2025-08-02 12:07:22,140 - INFO - 🎯 CRAFT Thresholds: text=0.4, link=0.2, low=0.2
+2025-08-02 12:07:22,140 - INFO - ⚙️  Post-processing: True
+2025-08-02 12:07:22,140 - INFO - 🎨 Visualization: True
+2025-08-02 12:07:22,140 - INFO - ================================================================================
+2025-08-02 12:07:22,160 - INFO - Initialized Enhanced OCR Pipeline on device: cuda
+2025-08-02 12:07:22,160 - INFO - Supported Languages:
+2025-08-02 12:07:22,161 - INFO - EasyOCR: hi (Hindi (हिंदी)), bn (Bengali (বাংলা)), te (Telugu (తెలుగు)), ta (Tamil (தமிழ்)), en (English), zh (Chinese (中文)), ja (Japanese (日本語)), ar (Arabic (العربية)), fr (French (Français)), de (German (Deutsch)), ko (Korean (한국어)), th (Thai (ไทย))
+2025-08-02 12:07:22,161 - INFO - Tesseract: hi (Hindi (हिंदी)), bn (Bengali (বাংলা)), te (Telugu (తెలుగు)), ta (Tamil (தமிழ்)), gu (Unknown (gu)), kn (Unknown (kn)), ml (Unknown (ml)), en (English), zh (Chinese (中文)), ja (Japanese (日本語)), ar (Arabic (العربية)), fr (French (Français)), de (German (Deutsch)), ko (Korean (한국어)), th (Thai (ไทย))
+2025-08-02 12:07:22,162 - INFO - Loading image: /content/drive/MyDrive/PolyOCR_Inputs/your_document_image.png
+2025-08-02 12:07:22,174 - INFO - Applying OpenCV denoising...
+2025-08-02 12:07:22,712 - INFO - Saved opencv_denoised image: /content/drive/MyDrive/PolyOCR_Results/your_document_image_opencv_denoised.png
+2025-08-02 12:07:25,143 - INFO - Successfully loaded CRAFT model from: /content/drive/MyDrive/OCR/detection/craft_mlt_25k.pth
+2025-08-02 12:07:25,148 - INFO - Performing CRAFT text detection...
+2025-08-02 12:07:25,150 - INFO - Original image size: 554x256
+2025-08-02 12:07:25,150 - WARNING - No boxes detected with default thresholds, trying lower thresholds...
+2025-08-02 12:07:25,368 - INFO - Using CRAFT thresholds: text=0.4, link=0.2, low=0.2
+2025-08-02 12:07:25,368 - INFO - Detected 4 text regions after filtering
+2025-08-02 12:07:25,369 - WARNING - Language 'gu' not supported by easyocr
+2025-08-02 12:07:25,369 - WARNING - Language 'kn' not supported by easyocr
+2025-08-02 12:07:25,369 - WARNING - Language 'ml' not supported by easyocr
+2025-08-02 12:07:25,369 - INFO - Using languages with easyocr: ['Hindi (हिंदी)', 'Bengali (বাংলা)', 'Telugu (తెలుగు)', 'Tamil (தமிழ்)', 'English', 'Chinese (中文)', 'Japanese (日本語)', 'Arabic (العربية)', 'French (Français)']
+2025-08-02 12:07:25,715 - INFO - Initializing EasyOCR for languages: ['hi', 'bn', 'te', 'ta', 'en', 'ch_sim', 'ja', 'ar', 'fr']
+2025-08-02 12:07:25,721 - INFO - GPU available for EasyOCR: True
+2025-08-02 12:07:25,890 - ERROR - Pipeline failed: Chinese_sim is only compatible with English, try lang_list=["ch_sim","en"]
+2025-08-02 12:07:25,892 - ERROR - ❌ Unexpected error: Chinese_sim is only compatible with English, try lang_list=["ch_sim","en"]
+2025-08-02 12:08:37,618 - INFO - ================================================================================
+2025-08-02 12:08:37,619 - INFO - ENHANCED POLYOCR PIPELINE CONFIGURATION
+2025-08-02 12:08:37,620 - INFO - ================================================================================
+2025-08-02 12:08:37,620 - INFO - 📷 Image: /content/drive/MyDrive/PolyOCR_Inputs/your_document_image.png
+2025-08-02 12:08:37,620 - INFO - 📁 Output Directory: /content/drive/MyDrive/PolyOCR_Results/
+2025-08-02 12:08:37,620 - INFO - 🌍 Languages: hi+bn+te+ta+kn+en+zh+ja+ar+fr
+2025-08-02 12:08:37,620 - INFO - 🔧 Recognizer: easyocr
+2025-08-02 12:08:37,621 - INFO - 📐 Format Preservation: True
+2025-08-02 12:08:37,621 - INFO - 🌐 Translation Target: en
+2025-08-02 12:08:37,621 - INFO - 🧹 OpenCV Denoise: True
+2025-08-02 12:08:37,621 - INFO - 🧹 DnCNN Denoise: False
+2025-08-02 12:08:37,621 - INFO - 🎯 CRAFT Thresholds: text=0.4, link=0.2, low=0.2
+2025-08-02 12:08:37,621 - INFO - ⚙️  Post-processing: True
+2025-08-02 12:08:37,621 - INFO - 🎨 Visualization: True
+2025-08-02 12:08:37,622 - INFO - ================================================================================
+2025-08-02 12:08:37,643 - INFO - Initialized Enhanced OCR Pipeline on device: cuda
+2025-08-02 12:08:37,643 - INFO - Supported Languages:
+2025-08-02 12:08:37,644 - INFO - EasyOCR: hi (Hindi (हिंदी)), bn (Bengali (বাংলা)), te (Telugu (తెలుగు)), ta (Tamil (தமிழ்)), en (English), zh (Chinese (中文)), ja (Japanese (日本語)), ar (Arabic (العربية)), fr (French (Français)), de (German (Deutsch)), ko (Korean (한국어)), th (Thai (ไทย))
+2025-08-02 12:08:37,644 - INFO - Tesseract: hi (Hindi (हिंदी)), bn (Bengali (বাংলা)), te (Telugu (తెలుగు)), ta (Tamil (தமிழ்)), gu (Unknown (gu)), kn (Unknown (kn)), ml (Unknown (ml)), en (English), zh (Chinese (中文)), ja (Japanese (日本語)), ar (Arabic (العربية)), fr (French (Français)), de (German (Deutsch)), ko (Korean (한국어)), th (Thai (ไทย))
+2025-08-02 12:08:37,645 - INFO - Loading image: /content/drive/MyDrive/PolyOCR_Inputs/your_document_image.png
+2025-08-02 12:08:37,659 - INFO - Applying OpenCV denoising...
+2025-08-02 12:08:38,235 - INFO - Saved opencv_denoised image: /content/drive/MyDrive/PolyOCR_Results/your_document_image_opencv_denoised.png
+2025-08-02 12:08:40,954 - INFO - Successfully loaded CRAFT model from: /content/drive/MyDrive/OCR/detection/craft_mlt_25k.pth
+2025-08-02 12:08:40,959 - INFO - Performing CRAFT text detection...
+2025-08-02 12:08:40,960 - INFO - Original image size: 554x256
+2025-08-02 12:08:40,961 - WARNING - No boxes detected with default thresholds, trying lower thresholds...
+2025-08-02 12:08:41,179 - INFO - Using CRAFT thresholds: text=0.4, link=0.2, low=0.2
+2025-08-02 12:08:41,180 - INFO - Detected 4 text regions after filtering
+2025-08-02 12:08:41,180 - WARNING - Language 'kn' not supported by easyocr
+2025-08-02 12:08:41,180 - INFO - Using languages with easyocr: ['Hindi (हिंदी)', 'Bengali (বাংলা)', 'Telugu (తెలుగు)', 'Tamil (தமிழ்)', 'English', 'Chinese (中文)', 'Japanese (日本語)', 'Arabic (العربية)', 'French (Français)']
+2025-08-02 12:08:41,529 - INFO - Initializing EasyOCR for languages: ['hi', 'bn', 'te', 'ta', 'en', 'ch_sim', 'ja', 'ar', 'fr']
+2025-08-02 12:08:41,535 - INFO - GPU available for EasyOCR: True
+2025-08-02 12:08:41,708 - ERROR - Pipeline failed: Chinese_sim is only compatible with English, try lang_list=["ch_sim","en"]
+2025-08-02 12:08:41,711 - ERROR - ❌ Unexpected error: Chinese_sim is only compatible with English, try lang_list=["ch_sim","en"]
+2025-08-02 12:21:51,079 - INFO - ================================================================================
+2025-08-02 12:21:51,080 - INFO - ENHANCED POLYOCR PIPELINE CONFIGURATION
+2025-08-02 12:21:51,080 - INFO - ================================================================================
+2025-08-02 12:21:51,081 - INFO - 📷 Image: /content/drive/MyDrive/PolyOCR_Inputs/your_document_image.png
+2025-08-02 12:21:51,081 - INFO - 📁 Output Directory: /content/drive/MyDrive/PolyOCR_Results/
+2025-08-02 12:21:51,081 - INFO - 🌍 Languages: hi+bn+te+ta+kn+en+zh+ja+ar+fr
+2025-08-02 12:21:51,081 - INFO - 🔧 Recognizer: easyocr
+2025-08-02 12:21:51,081 - INFO - 📐 Format Preservation: True
+2025-08-02 12:21:51,081 - INFO - 🌐 Translation Target: en
+2025-08-02 12:21:51,082 - INFO - 🧹 OpenCV Denoise: True
+2025-08-02 12:21:51,082 - INFO - 🧹 DnCNN Denoise: False
+2025-08-02 12:21:51,082 - INFO - 🎯 CRAFT Thresholds: text=0.4, link=0.2, low=0.2
+2025-08-02 12:21:51,082 - INFO - ⚙️  Post-processing: True
+2025-08-02 12:21:51,082 - INFO - 🎨 Visualization: True
+2025-08-02 12:21:51,082 - INFO - ================================================================================
+2025-08-02 12:21:51,101 - INFO - Initialized Enhanced OCR Pipeline on device: cuda
+2025-08-02 12:21:51,101 - INFO - Supported Languages:
+2025-08-02 12:21:51,101 - INFO - EasyOCR: hi (Hindi (हिंदी)), bn (Bengali (বাংলা)), te (Telugu (తెలుగు)), ta (Tamil (தமிழ்)), en (English), zh (Chinese (中文)), ja (Japanese (日本語)), ar (Arabic (العربية)), fr (French (Français)), de (German (Deutsch)), ko (Korean (한국어)), th (Thai (ไทย))
+2025-08-02 12:21:51,102 - INFO - Tesseract: hi (Hindi (हिंदी)), bn (Bengali (বাংলা)), te (Telugu (తెలుగు)), ta (Tamil (தமிழ்)), gu (Unknown (gu)), kn (Unknown (kn)), ml (Unknown (ml)), en (English), zh (Chinese (中文)), ja (Japanese (日本語)), ar (Arabic (العربية)), fr (French (Français)), de (German (Deutsch)), ko (Korean (한국어)), th (Thai (ไทย))
+2025-08-02 12:21:51,102 - INFO - Loading image: /content/drive/MyDrive/PolyOCR_Inputs/your_document_image.png
+2025-08-02 12:21:51,117 - INFO - Applying OpenCV denoising...
+2025-08-02 12:21:51,660 - INFO - Saved opencv_denoised image: /content/drive/MyDrive/PolyOCR_Results/your_document_image_opencv_denoised.png
+2025-08-02 12:21:55,258 - INFO - Successfully loaded CRAFT model from: /content/drive/MyDrive/OCR/detection/craft_mlt_25k.pth
+2025-08-02 12:21:55,265 - INFO - Performing CRAFT text detection...
+2025-08-02 12:21:55,267 - INFO - Original image size: 554x256
+2025-08-02 12:21:55,267 - WARNING - No boxes detected with default thresholds, trying lower thresholds...
+2025-08-02 12:21:55,596 - INFO - Using CRAFT thresholds: text=0.4, link=0.2, low=0.2
+2025-08-02 12:21:55,596 - INFO - Detected 4 text regions after filtering
+2025-08-02 12:21:55,597 - WARNING - Language 'kn' not supported by EasyOCR, will use Tesseract
+2025-08-02 12:21:55,597 - INFO - Added 'en' for compatibility with 'ch_sim'
+2025-08-02 12:21:55,597 - INFO - Added 'en' for compatibility with 'ja'
+2025-08-02 12:21:55,597 - INFO - Added 'en' for compatibility with 'ar'
+2025-08-02 12:21:55,597 - INFO - Using languages with easyocr: ['Arabic (العربية)', 'Bengali (বাংলা)', 'Unknown (ch_sim)', 'English', 'French (Français)', 'Hindi (हिंदी)', 'Japanese (日本語)', 'Tamil (தமிழ்)', 'Telugu (తెలుగు)']
+2025-08-02 12:21:55,598 - WARNING - Language 'ch_sim' not recognized
+2025-08-02 12:21:55,598 - INFO - Added 'en' for compatibility with 'ar'
+2025-08-02 12:21:55,598 - INFO - Added 'en' for compatibility with 'ja'
+2025-08-02 12:21:55,996 - INFO - Added 'en' for compatibility with 'ar'
+2025-08-02 12:21:55,996 - INFO - Added 'en' for compatibility with 'ja'
+2025-08-02 12:21:55,996 - INFO - Initializing EasyOCR for languages: ['ar', 'bn', 'en', 'fr', 'hi', 'ja', 'ta', 'te']
+2025-08-02 12:21:56,002 - INFO - GPU available for EasyOCR: True
+2025-08-02 12:21:56,181 - ERROR - Pipeline failed: Japanese is only compatible with English, try lang_list=["ja","en"]
+2025-08-02 12:21:56,183 - ERROR - ❌ Unexpected error: Japanese is only compatible with English, try lang_list=["ja","en"]
+2025-08-02 12:23:27,314 - INFO - ================================================================================
+2025-08-02 12:23:27,315 - INFO - ENHANCED POLYOCR PIPELINE CONFIGURATION
+2025-08-02 12:23:27,315 - INFO - ================================================================================
+2025-08-02 12:23:27,315 - INFO - 📷 Image: /content/drive/MyDrive/PolyOCR_Inputs/your_document_image.png
+2025-08-02 12:23:27,315 - INFO - 📁 Output Directory: /content/drive/MyDrive/PolyOCR_Results/
+2025-08-02 12:23:27,315 - INFO - 🌍 Languages: hi+bn+te+ta+kn+en+zh+ja+ar+fr
+2025-08-02 12:23:27,315 - INFO - 🔧 Recognizer: easyocr
+2025-08-02 12:23:27,315 - INFO - 📐 Format Preservation: True
+2025-08-02 12:23:27,316 - INFO - 🌐 Translation Target: en
+2025-08-02 12:23:27,316 - INFO - 🧹 OpenCV Denoise: True
+2025-08-02 12:23:27,316 - INFO - 🧹 DnCNN Denoise: False
+2025-08-02 12:23:27,316 - INFO - 🎯 CRAFT Thresholds: text=0.4, link=0.2, low=0.2
+2025-08-02 12:23:27,316 - INFO - ⚙️  Post-processing: True
+2025-08-02 12:23:27,316 - INFO - 🎨 Visualization: True
+2025-08-02 12:23:27,316 - INFO - ================================================================================
+2025-08-02 12:23:27,336 - INFO - Initialized Enhanced OCR Pipeline on device: cuda
+2025-08-02 12:23:27,336 - INFO - Supported Languages:
+2025-08-02 12:23:27,336 - INFO - EasyOCR: hi (Hindi (हिंदी)), bn (Bengali (বাংলা)), te (Telugu (తెలుగు)), ta (Tamil (தமிழ்)), en (English), zh (Chinese (中文)), ja (Japanese (日本語)), ar (Arabic (العربية)), fr (French (Français)), de (German (Deutsch)), ko (Korean (한국어)), th (Thai (ไทย))
+2025-08-02 12:23:27,336 - INFO - Tesseract: hi (Hindi (हिंदी)), bn (Bengali (বাংলা)), te (Telugu (తెలుగు)), ta (Tamil (தமிழ்)), gu (Unknown (gu)), kn (Unknown (kn)), ml (Unknown (ml)), en (English), zh (Chinese (中文)), ja (Japanese (日本語)), ar (Arabic (العربية)), fr (French (Français)), de (German (Deutsch)), ko (Korean (한국어)), th (Thai (ไทย))
+2025-08-02 12:23:27,337 - INFO - Loading image: /content/drive/MyDrive/PolyOCR_Inputs/your_document_image.png
+2025-08-02 12:23:27,350 - INFO - Applying OpenCV denoising...
+2025-08-02 12:23:27,882 - INFO - Saved opencv_denoised image: /content/drive/MyDrive/PolyOCR_Results/your_document_image_opencv_denoised.png
+2025-08-02 12:23:30,325 - INFO - Successfully loaded CRAFT model from: /content/drive/MyDrive/OCR/detection/craft_mlt_25k.pth
+2025-08-02 12:23:30,328 - INFO - Performing CRAFT text detection...
+2025-08-02 12:23:30,330 - INFO - Original image size: 554x256
+2025-08-02 12:23:30,330 - WARNING - No boxes detected with default thresholds, trying lower thresholds...
+2025-08-02 12:23:30,552 - INFO - Using CRAFT thresholds: text=0.4, link=0.2, low=0.2
+2025-08-02 12:23:30,552 - INFO - Detected 4 text regions after filtering
+2025-08-02 12:23:30,552 - WARNING - Language 'kn' not supported by EasyOCR, will use Tesseract
+2025-08-02 12:23:30,553 - INFO - Added 'en' for compatibility with 'ch_sim'
+2025-08-02 12:23:30,553 - INFO - Added 'en' for compatibility with 'ja'
+2025-08-02 12:23:30,553 - INFO - Added 'en' for compatibility with 'ar'
+2025-08-02 12:23:30,553 - INFO - Using languages with easyocr: ['Arabic (العربية)', 'Bengali (বাংলা)', 'Unknown (ch_sim)', 'English', 'French (Français)', 'Hindi (हिंदी)', 'Japanese (日本語)', 'Tamil (தமிழ்)', 'Telugu (తెలుగు)']
+2025-08-02 12:23:30,553 - WARNING - Language 'ch_sim' not recognized
+2025-08-02 12:23:30,553 - INFO - Added 'en' for compatibility with 'ar'
+2025-08-02 12:23:30,554 - INFO - Added 'en' for compatibility with 'ja'
+2025-08-02 12:23:30,889 - INFO - Added 'en' for compatibility with 'ar'
+2025-08-02 12:23:30,890 - INFO - Added 'en' for compatibility with 'ja'
+2025-08-02 12:23:30,890 - INFO - Initializing EasyOCR for languages: ['ar', 'bn', 'en', 'fr', 'hi', 'ja', 'ta', 'te']
+2025-08-02 12:23:30,896 - INFO - GPU available for EasyOCR: True
+2025-08-02 12:23:31,073 - ERROR - Pipeline failed: Japanese is only compatible with English, try lang_list=["ja","en"]
+2025-08-02 12:23:31,074 - ERROR - ❌ Unexpected error: Japanese is only compatible with English, try lang_list=["ja","en"]
+2025-08-02 12:29:32,370 - INFO - ================================================================================
+2025-08-02 12:29:32,371 - INFO - ENHANCED POLYOCR PIPELINE CONFIGURATION
+2025-08-02 12:29:32,371 - INFO - ================================================================================
+2025-08-02 12:29:32,371 - INFO - 📷 Image: /content/drive/MyDrive/PolyOCR_Inputs/your_document_image.png
+2025-08-02 12:29:32,371 - INFO - 📁 Output Directory: /content/drive/MyDrive/PolyOCR_Results/
+2025-08-02 12:29:32,371 - INFO - 🌍 Languages: hi+bn+te+ta+kn+en+zh+ja+ar+fr
+2025-08-02 12:29:32,371 - INFO - 🔧 Recognizer: easyocr
+2025-08-02 12:29:32,371 - INFO - 📐 Format Preservation: True
+2025-08-02 12:29:32,372 - INFO - 🌐 Translation Target: en
+2025-08-02 12:29:32,372 - INFO - 🧹 OpenCV Denoise: True
+2025-08-02 12:29:32,372 - INFO - 🧹 DnCNN Denoise: False
+2025-08-02 12:29:32,372 - INFO - 🎯 CRAFT Thresholds: text=0.4, link=0.2, low=0.2
+2025-08-02 12:29:32,372 - INFO - ⚙️  Post-processing: True
+2025-08-02 12:29:32,372 - INFO - 🎨 Visualization: True
+2025-08-02 12:29:32,372 - INFO - ================================================================================
+2025-08-02 12:29:32,391 - INFO - Initialized Enhanced OCR Pipeline on device: cuda
+2025-08-02 12:29:32,392 - INFO - Supported Languages:
+2025-08-02 12:29:32,392 - INFO - EasyOCR: hi (Hindi (हिंदी)), bn (Bengali (বাংলা)), te (Telugu (తెలుగు)), ta (Tamil (தமிழ்)), en (English), zh (Chinese (中文)), ja (Japanese (日本語)), ar (Arabic (العربية)), fr (French (Français)), de (German (Deutsch)), ko (Korean (한국어)), th (Thai (ไทย))
+2025-08-02 12:29:32,392 - INFO - Tesseract: hi (Hindi (हिंदी)), bn (Bengali (বাংলা)), te (Telugu (తెలుగు)), ta (Tamil (தமிழ்)), gu (Unknown (gu)), kn (Unknown (kn)), ml (Unknown (ml)), en (English), zh (Chinese (中文)), ja (Japanese (日本語)), ar (Arabic (العربية)), fr (French (Français)), de (German (Deutsch)), ko (Korean (한국어)), th (Thai (ไทย))
+2025-08-02 12:29:32,393 - INFO - Loading image: /content/drive/MyDrive/PolyOCR_Inputs/your_document_image.png
+2025-08-02 12:29:32,406 - INFO - Applying OpenCV denoising...
+2025-08-02 12:29:32,928 - INFO - Saved opencv_denoised image: /content/drive/MyDrive/PolyOCR_Results/your_document_image_opencv_denoised.png
+2025-08-02 12:29:36,746 - INFO - Successfully loaded CRAFT model from: /content/drive/MyDrive/OCR/detection/craft_mlt_25k.pth
+2025-08-02 12:29:36,749 - INFO - Performing CRAFT text detection...
+2025-08-02 12:29:36,750 - INFO - Original image size: 554x256
+2025-08-02 12:29:36,750 - WARNING - No boxes detected with default thresholds, trying lower thresholds...
+2025-08-02 12:29:36,972 - INFO - Using CRAFT thresholds: text=0.4, link=0.2, low=0.2
+2025-08-02 12:29:36,973 - INFO - Detected 4 text regions after filtering
+2025-08-02 12:29:36,973 - WARNING - Language 'kn' not supported by EasyOCR, will use Tesseract
+2025-08-02 12:29:36,973 - INFO - Added 'en' for compatibility with 'ch_sim'
+2025-08-02 12:29:36,973 - INFO - Added 'en' for compatibility with 'ar'
+2025-08-02 12:29:36,974 - INFO - Using languages with easyocr: ['Arabic (العربية)', 'Bengali (বাংলা)', 'Unknown (ch_sim)', 'English', 'French (Français)', 'Hindi (हिंदी)', 'Tamil (தமிழ்)', 'Telugu (తెలుగు)']
+2025-08-02 12:29:36,974 - WARNING - Language 'ch_sim' not recognized
+2025-08-02 12:29:36,974 - INFO - Added 'en' for compatibility with 'ar'
+2025-08-02 12:29:37,309 - INFO - Added 'en' for compatibility with 'ar'
+2025-08-02 12:29:37,309 - INFO - Initializing EasyOCR for languages: ['ar', 'bn', 'en', 'fr', 'hi', 'ta', 'te']
+2025-08-02 12:29:37,315 - INFO - GPU available for EasyOCR: True
+2025-08-02 12:29:37,486 - ERROR - Pipeline failed: Tamil is only compatible with English, try lang_list=["ta","en"]
+2025-08-02 12:29:37,490 - ERROR - ❌ Unexpected error: Tamil is only compatible with English, try lang_list=["ta","en"]
+2025-08-02 12:29:58,689 - INFO - ================================================================================
+2025-08-02 12:29:58,689 - INFO - ENHANCED POLYOCR PIPELINE CONFIGURATION
+2025-08-02 12:29:58,690 - INFO - ================================================================================
+2025-08-02 12:29:58,690 - INFO - 📷 Image: /content/drive/MyDrive/PolyOCR_Inputs/your_document_image.png
+2025-08-02 12:29:58,690 - INFO - 📁 Output Directory: /content/drive/MyDrive/PolyOCR_Results/
+2025-08-02 12:29:58,690 - INFO - 🌍 Languages: hi+bn+te+ta+kn+en+zh+ja+ar+fr
+2025-08-02 12:29:58,690 - INFO - 🔧 Recognizer: easyocr
+2025-08-02 12:29:58,690 - INFO - 📐 Format Preservation: True
+2025-08-02 12:29:58,691 - INFO - 🌐 Translation Target: en
+2025-08-02 12:29:58,691 - INFO - 🧹 OpenCV Denoise: True
+2025-08-02 12:29:58,691 - INFO - 🧹 DnCNN Denoise: False
+2025-08-02 12:29:58,691 - INFO - 🎯 CRAFT Thresholds: text=0.4, link=0.2, low=0.2
+2025-08-02 12:29:58,691 - INFO - ⚙️  Post-processing: True
+2025-08-02 12:29:58,691 - INFO - 🎨 Visualization: True
+2025-08-02 12:29:58,691 - INFO - ================================================================================
+2025-08-02 12:29:58,717 - INFO - Initialized Enhanced OCR Pipeline on device: cuda
+2025-08-02 12:29:58,717 - INFO - Supported Languages:
+2025-08-02 12:29:58,717 - INFO - EasyOCR: hi (Hindi (हिंदी)), bn (Bengali (বাংলা)), te (Telugu (తెలుగు)), ta (Tamil (தமிழ்)), en (English), zh (Chinese (中文)), ja (Japanese (日本語)), ar (Arabic (العربية)), fr (French (Français)), de (German (Deutsch)), ko (Korean (한국어)), th (Thai (ไทย))
+2025-08-02 12:29:58,718 - INFO - Tesseract: hi (Hindi (हिंदी)), bn (Bengali (বাংলা)), te (Telugu (తెలుగు)), ta (Tamil (தமிழ்)), gu (Unknown (gu)), kn (Unknown (kn)), ml (Unknown (ml)), en (English), zh (Chinese (中文)), ja (Japanese (日本語)), ar (Arabic (العربية)), fr (French (Français)), de (German (Deutsch)), ko (Korean (한국어)), th (Thai (ไทย))
+2025-08-02 12:29:58,718 - INFO - Loading image: /content/drive/MyDrive/PolyOCR_Inputs/your_document_image.png
+2025-08-02 12:29:58,735 - INFO - Applying OpenCV denoising...
+2025-08-02 12:29:59,689 - INFO - Saved opencv_denoised image: /content/drive/MyDrive/PolyOCR_Results/your_document_image_opencv_denoised.png
+2025-08-02 12:30:03,029 - INFO - Successfully loaded CRAFT model from: /content/drive/MyDrive/OCR/detection/craft_mlt_25k.pth
+2025-08-02 12:30:03,035 - INFO - Performing CRAFT text detection...
+2025-08-02 12:30:03,036 - INFO - Original image size: 554x256
+2025-08-02 12:30:03,037 - WARNING - No boxes detected with default thresholds, trying lower thresholds...
+2025-08-02 12:30:03,254 - INFO - Using CRAFT thresholds: text=0.4, link=0.2, low=0.2
+2025-08-02 12:30:03,255 - INFO - Detected 4 text regions after filtering
+2025-08-02 12:30:03,255 - WARNING - Language 'kn' not supported by EasyOCR, will use Tesseract
+2025-08-02 12:30:03,255 - INFO - Added 'en' for compatibility with 'ch_sim'
+2025-08-02 12:30:03,255 - INFO - Added 'en' for compatibility with 'ar'
+2025-08-02 12:30:03,256 - INFO - Using languages with easyocr: ['Arabic (العربية)', 'Bengali (বাংলা)', 'Unknown (ch_sim)', 'English', 'French (Français)', 'Hindi (हिंदी)', 'Tamil (தமிழ்)', 'Telugu (తెలుగు)']
+2025-08-02 12:30:03,256 - WARNING - Language 'ch_sim' not recognized
+2025-08-02 12:30:03,256 - INFO - Added 'en' for compatibility with 'ar'
+2025-08-02 12:30:03,606 - INFO - Added 'en' for compatibility with 'ar'
+2025-08-02 12:30:03,606 - INFO - Initializing EasyOCR for languages: ['ar', 'bn', 'en', 'fr', 'hi', 'ta', 'te']
+2025-08-02 12:30:03,612 - INFO - GPU available for EasyOCR: True
+2025-08-02 12:30:03,778 - ERROR - Pipeline failed: Tamil is only compatible with English, try lang_list=["ta","en"]
+2025-08-02 12:30:03,780 - ERROR - ❌ Unexpected error: Tamil is only compatible with English, try lang_list=["ta","en"]
+2025-08-02 12:30:46,700 - INFO - ================================================================================
+2025-08-02 12:30:46,701 - INFO - ENHANCED POLYOCR PIPELINE CONFIGURATION
+2025-08-02 12:30:46,701 - INFO - ================================================================================
+2025-08-02 12:30:46,701 - INFO - 📷 Image: /content/drive/MyDrive/PolyOCR_Inputs/your_document_image.png
+2025-08-02 12:30:46,701 - INFO - 📁 Output Directory: /content/drive/MyDrive/PolyOCR_Results/
+2025-08-02 12:30:46,701 - INFO - 🌍 Languages: hi+bn+te+ta+kn+en+zh+ja+ar+fr
+2025-08-02 12:30:46,701 - INFO - 🔧 Recognizer: easyocr
+2025-08-02 12:30:46,701 - INFO - 📐 Format Preservation: True
+2025-08-02 12:30:46,702 - INFO - 🌐 Translation Target: en
+2025-08-02 12:30:46,702 - INFO - 🧹 OpenCV Denoise: True
+2025-08-02 12:30:46,702 - INFO - 🧹 DnCNN Denoise: False
+2025-08-02 12:30:46,702 - INFO - 🎯 CRAFT Thresholds: text=0.4, link=0.2, low=0.2
+2025-08-02 12:30:46,702 - INFO - ⚙️  Post-processing: True
+2025-08-02 12:30:46,702 - INFO - 🎨 Visualization: True
+2025-08-02 12:30:46,702 - INFO - ================================================================================
+2025-08-02 12:30:46,722 - INFO - Initialized Enhanced OCR Pipeline on device: cuda
+2025-08-02 12:30:46,722 - INFO - Supported Languages:
+2025-08-02 12:30:46,722 - INFO - EasyOCR: hi (Hindi (हिंदी)), bn (Bengali (বাংলা)), te (Telugu (తెలుగు)), ta (Tamil (தமிழ்)), en (English), zh (Chinese (中文)), ja (Japanese (日本語)), ar (Arabic (العربية)), fr (French (Français)), de (German (Deutsch)), ko (Korean (한국어)), th (Thai (ไทย))
+2025-08-02 12:30:46,722 - INFO - Tesseract: hi (Hindi (हिंदी)), bn (Bengali (বাংলা)), te (Telugu (తెలుగు)), ta (Tamil (தமிழ்)), gu (Unknown (gu)), kn (Unknown (kn)), ml (Unknown (ml)), en (English), zh (Chinese (中文)), ja (Japanese (日本語)), ar (Arabic (العربية)), fr (French (Français)), de (German (Deutsch)), ko (Korean (한국어)), th (Thai (ไทย))
+2025-08-02 12:30:46,723 - INFO - Loading image: /content/drive/MyDrive/PolyOCR_Inputs/your_document_image.png
+2025-08-02 12:30:46,737 - INFO - Applying OpenCV denoising...
+2025-08-02 12:30:47,274 - INFO - Saved opencv_denoised image: /content/drive/MyDrive/PolyOCR_Results/your_document_image_opencv_denoised.png
+2025-08-02 12:30:49,736 - INFO - Successfully loaded CRAFT model from: /content/drive/MyDrive/OCR/detection/craft_mlt_25k.pth
+2025-08-02 12:30:49,742 - INFO - Performing CRAFT text detection...
+2025-08-02 12:30:49,746 - INFO - Original image size: 554x256
+2025-08-02 12:30:49,746 - WARNING - No boxes detected with default thresholds, trying lower thresholds...
+2025-08-02 12:30:49,969 - INFO - Using CRAFT thresholds: text=0.4, link=0.2, low=0.2
+2025-08-02 12:30:49,969 - INFO - Detected 4 text regions after filtering
+2025-08-02 12:30:49,969 - WARNING - Language 'kn' not supported by EasyOCR, will use Tesseract
+2025-08-02 12:30:49,970 - INFO - Added 'en' for compatibility with 'ch_sim'
+2025-08-02 12:30:49,970 - INFO - Added 'en' for compatibility with 'ar'
+2025-08-02 12:30:49,970 - INFO - Using languages with easyocr: ['Arabic (العربية)', 'Bengali (বাংলা)', 'Unknown (ch_sim)', 'English', 'French (Français)', 'Hindi (हिंदी)', 'Telugu (తెలుగు)']
+2025-08-02 12:30:49,970 - WARNING - Language 'ch_sim' not recognized
+2025-08-02 12:30:49,970 - INFO - Added 'en' for compatibility with 'ar'
+2025-08-02 12:30:50,393 - INFO - Added 'en' for compatibility with 'ar'
+2025-08-02 12:30:50,393 - INFO - Initializing EasyOCR for languages: ['ar', 'bn', 'en', 'fr', 'hi', 'te']
+2025-08-02 12:30:50,400 - INFO - GPU available for EasyOCR: True
+2025-08-02 12:30:50,602 - ERROR - Pipeline failed: Telugu is only compatible with English, try lang_list=["te","en"]
+2025-08-02 12:30:50,604 - ERROR - ❌ Unexpected error: Telugu is only compatible with English, try lang_list=["te","en"]
+2025-08-02 12:31:44,890 - INFO - ================================================================================
+2025-08-02 12:31:44,891 - INFO - ENHANCED POLYOCR PIPELINE CONFIGURATION
+2025-08-02 12:31:44,891 - INFO - ================================================================================
+2025-08-02 12:31:44,891 - INFO - 📷 Image: /content/drive/MyDrive/PolyOCR_Inputs/your_document_image.png
+2025-08-02 12:31:44,891 - INFO - 📁 Output Directory: /content/drive/MyDrive/PolyOCR_Results/
+2025-08-02 12:31:44,891 - INFO - 🌍 Languages: hi+bn+te+ta+kn+en+zh+ja+ar+fr
+2025-08-02 12:31:44,892 - INFO - 🔧 Recognizer: easyocr
+2025-08-02 12:31:44,892 - INFO - 📐 Format Preservation: True
+2025-08-02 12:31:44,892 - INFO - 🌐 Translation Target: en
+2025-08-02 12:31:44,892 - INFO - 🧹 OpenCV Denoise: True
+2025-08-02 12:31:44,892 - INFO - 🧹 DnCNN Denoise: False
+2025-08-02 12:31:44,892 - INFO - 🎯 CRAFT Thresholds: text=0.4, link=0.2, low=0.2
+2025-08-02 12:31:44,892 - INFO - ⚙️  Post-processing: True
+2025-08-02 12:31:44,892 - INFO - 🎨 Visualization: True
+2025-08-02 12:31:44,893 - INFO - ================================================================================
+2025-08-02 12:31:44,911 - INFO - Initialized Enhanced OCR Pipeline on device: cuda
+2025-08-02 12:31:44,911 - INFO - Supported Languages:
+2025-08-02 12:31:44,911 - INFO - EasyOCR: hi (Hindi (हिंदी)), bn (Bengali (বাংলা)), te (Telugu (తెలుగు)), ta (Tamil (தமிழ்)), en (English), zh (Chinese (中文)), ja (Japanese (日本語)), ar (Arabic (العربية)), fr (French (Français)), de (German (Deutsch)), ko (Korean (한국어)), th (Thai (ไทย))
+2025-08-02 12:31:44,911 - INFO - Tesseract: hi (Hindi (हिंदी)), bn (Bengali (বাংলা)), te (Telugu (తెలుగు)), ta (Tamil (தமிழ்)), gu (Unknown (gu)), kn (Unknown (kn)), ml (Unknown (ml)), en (English), zh (Chinese (中文)), ja (Japanese (日本語)), ar (Arabic (العربية)), fr (French (Français)), de (German (Deutsch)), ko (Korean (한국어)), th (Thai (ไทย))
+2025-08-02 12:31:44,912 - INFO - Loading image: /content/drive/MyDrive/PolyOCR_Inputs/your_document_image.png
+2025-08-02 12:31:44,924 - INFO - Applying OpenCV denoising...
+2025-08-02 12:31:45,445 - INFO - Saved opencv_denoised image: /content/drive/MyDrive/PolyOCR_Results/your_document_image_opencv_denoised.png
+2025-08-02 12:31:47,852 - INFO - Successfully loaded CRAFT model from: /content/drive/MyDrive/OCR/detection/craft_mlt_25k.pth
+2025-08-02 12:31:47,857 - INFO - Performing CRAFT text detection...
+2025-08-02 12:31:47,858 - INFO - Original image size: 554x256
+2025-08-02 12:31:47,858 - WARNING - No boxes detected with default thresholds, trying lower thresholds...
+2025-08-02 12:31:48,078 - INFO - Using CRAFT thresholds: text=0.4, link=0.2, low=0.2
+2025-08-02 12:31:48,078 - INFO - Detected 4 text regions after filtering
+2025-08-02 12:31:48,078 - WARNING - Language 'kn' not supported by EasyOCR, will use Tesseract
+2025-08-02 12:31:48,078 - INFO - Added 'en' for compatibility with 'ch_sim'
+2025-08-02 12:31:48,079 - INFO - Added 'en' for compatibility with 'ar'
+2025-08-02 12:31:48,079 - INFO - Using languages with easyocr: ['Arabic (العربية)', 'Bengali (বাংলা)', 'Unknown (ch_sim)', 'English', 'French (Français)', 'Hindi (हिंदी)']
+2025-08-02 12:31:48,079 - WARNING - Language 'ch_sim' not recognized
+2025-08-02 12:31:48,079 - INFO - Added 'en' for compatibility with 'ar'
+2025-08-02 12:31:48,411 - INFO - Added 'en' for compatibility with 'ar'
+2025-08-02 12:31:48,412 - INFO - Initializing EasyOCR for languages: ['ar', 'bn', 'en', 'fr', 'hi']
+2025-08-02 12:31:48,418 - INFO - GPU available for EasyOCR: True
+2025-08-02 12:31:48,585 - ERROR - Pipeline failed: Bengali is only compatible with English, try lang_list=["bn","as","en"]
+2025-08-02 12:31:48,586 - ERROR - ❌ Unexpected error: Bengali is only compatible with English, try lang_list=["bn","as","en"]
+2025-08-02 12:34:44,565 - INFO - ================================================================================
+2025-08-02 12:34:44,566 - INFO - ENHANCED POLYOCR PIPELINE CONFIGURATION
+2025-08-02 12:34:44,566 - INFO - ================================================================================
+2025-08-02 12:34:44,566 - INFO - 📷 Image: /content/drive/MyDrive/PolyOCR_Inputs/your_document_image.png
+2025-08-02 12:34:44,566 - INFO - 📁 Output Directory: /content/drive/MyDrive/PolyOCR_Results/
+2025-08-02 12:34:44,566 - INFO - 🌍 Languages: hi+bn+te+ta+kn+en+zh+ja+ar+fr
+2025-08-02 12:34:44,566 - INFO - 🔧 Recognizer: easyocr
+2025-08-02 12:34:44,566 - INFO - 📐 Format Preservation: True
+2025-08-02 12:34:44,567 - INFO - 🌐 Translation Target: en
+2025-08-02 12:34:44,567 - INFO - 🧹 OpenCV Denoise: True
+2025-08-02 12:34:44,567 - INFO - 🧹 DnCNN Denoise: False
+2025-08-02 12:34:44,567 - INFO - 🎯 CRAFT Thresholds: text=0.4, link=0.2, low=0.2
+2025-08-02 12:34:44,567 - INFO - ⚙️  Post-processing: True
+2025-08-02 12:34:44,567 - INFO - 🎨 Visualization: True
+2025-08-02 12:34:44,567 - INFO - ================================================================================
+2025-08-02 12:34:44,586 - INFO - Initialized Enhanced OCR Pipeline on device: cuda
+2025-08-02 12:34:44,586 - INFO - Supported Languages:
+2025-08-02 12:34:44,586 - INFO - EasyOCR: hi (Hindi (हिंदी)), te (Telugu (తెలుగు)), ta (Tamil (தமிழ்)), en (English), zh (Chinese (中文)), ja (Japanese (日本語)), ar (Arabic (العربية)), fr (French (Français)), de (German (Deutsch)), ko (Korean (한국어)), th (Thai (ไทย))
+2025-08-02 12:34:44,587 - INFO - Tesseract: hi (Hindi (हिंदी)), bn (Bengali (বাংলা)), te (Telugu (తెలుగు)), ta (Tamil (தமிழ்)), gu (Unknown (gu)), kn (Unknown (kn)), ml (Unknown (ml)), en (English), zh (Chinese (中文)), ja (Japanese (日本語)), ar (Arabic (العربية)), fr (French (Français)), de (German (Deutsch)), ko (Korean (한국어)), th (Thai (ไทย))
+2025-08-02 12:34:44,587 - INFO - Loading image: /content/drive/MyDrive/PolyOCR_Inputs/your_document_image.png
+2025-08-02 12:34:44,600 - INFO - Applying OpenCV denoising...
+2025-08-02 12:34:45,136 - INFO - Saved opencv_denoised image: /content/drive/MyDrive/PolyOCR_Results/your_document_image_opencv_denoised.png
+2025-08-02 12:34:47,543 - INFO - Successfully loaded CRAFT model from: /content/drive/MyDrive/OCR/detection/craft_mlt_25k.pth
+2025-08-02 12:34:47,546 - INFO - Performing CRAFT text detection...
+2025-08-02 12:34:47,548 - INFO - Original image size: 554x256
+2025-08-02 12:34:47,548 - WARNING - No boxes detected with default thresholds, trying lower thresholds...
+2025-08-02 12:34:47,769 - INFO - Using CRAFT thresholds: text=0.4, link=0.2, low=0.2
+2025-08-02 12:34:47,769 - INFO - Detected 4 text regions after filtering
+2025-08-02 12:34:47,770 - WARNING - Language 'bn' not recognized
+2025-08-02 12:34:47,770 - WARNING - Language 'kn' not supported by EasyOCR, will use Tesseract
+2025-08-02 12:34:47,770 - INFO - Added 'en' for compatibility with 'ch_sim'
+2025-08-02 12:34:47,770 - INFO - Added 'en' for compatibility with 'ar'
+2025-08-02 12:34:47,770 - INFO - Using languages with easyocr: ['Arabic (العربية)', 'Unknown (ch_sim)', 'English', 'French (Français)', 'Hindi (हिंदी)']
+2025-08-02 12:34:47,771 - WARNING - Language 'ch_sim' not recognized
+2025-08-02 12:34:47,771 - INFO - Added 'en' for compatibility with 'ar'
+2025-08-02 12:34:48,119 - INFO - Added 'en' for compatibility with 'ar'
+2025-08-02 12:34:48,119 - INFO - Initializing EasyOCR for languages: ['ar', 'en', 'fr', 'hi']
+2025-08-02 12:34:48,125 - INFO - GPU available for EasyOCR: True
+2025-08-02 12:34:48,293 - ERROR - Pipeline failed: Arabic is only compatible with English, try lang_list=["ar","fa","ur","ug","en"]
+2025-08-02 12:34:48,295 - ERROR - ❌ Unexpected error: Arabic is only compatible with English, try lang_list=["ar","fa","ur","ug","en"]
+2025-08-02 12:35:14,534 - INFO - ================================================================================
+2025-08-02 12:35:14,534 - INFO - ENHANCED POLYOCR PIPELINE CONFIGURATION
+2025-08-02 12:35:14,535 - INFO - ================================================================================
+2025-08-02 12:35:14,535 - INFO - 📷 Image: /content/drive/MyDrive/PolyOCR_Inputs/your_document_image.png
+2025-08-02 12:35:14,535 - INFO - 📁 Output Directory: /content/drive/MyDrive/PolyOCR_Results/
+2025-08-02 12:35:14,535 - INFO - 🌍 Languages: hi+bn+te+ta+kn+en+zh+ja+ar+fr
+2025-08-02 12:35:14,535 - INFO - 🔧 Recognizer: easyocr
+2025-08-02 12:35:14,535 - INFO - 📐 Format Preservation: True
+2025-08-02 12:35:14,535 - INFO - 🌐 Translation Target: en
+2025-08-02 12:35:14,536 - INFO - 🧹 OpenCV Denoise: True
+2025-08-02 12:35:14,536 - INFO - 🧹 DnCNN Denoise: False
+2025-08-02 12:35:14,536 - INFO - 🎯 CRAFT Thresholds: text=0.4, link=0.2, low=0.2
+2025-08-02 12:35:14,536 - INFO - ⚙️  Post-processing: True
+2025-08-02 12:35:14,536 - INFO - 🎨 Visualization: True
+2025-08-02 12:35:14,536 - INFO - ================================================================================
+2025-08-02 12:35:14,555 - INFO - Initialized Enhanced OCR Pipeline on device: cuda
+2025-08-02 12:35:14,556 - INFO - Supported Languages:
+2025-08-02 12:35:14,556 - INFO - EasyOCR: hi (Hindi (हिंदी)), te (Telugu (తెలుగు)), ta (Tamil (தமிழ்)), en (English), zh (Chinese (中文)), ja (Japanese (日本語)), fr (French (Français)), de (German (Deutsch)), ko (Korean (한국어)), th (Thai (ไทย))
+2025-08-02 12:35:14,556 - INFO - Tesseract: hi (Hindi (हिंदी)), bn (Bengali (বাংলা)), te (Telugu (తెలుగు)), ta (Tamil (தமிழ்)), gu (Unknown (gu)), kn (Unknown (kn)), ml (Unknown (ml)), en (English), zh (Chinese (中文)), ja (Japanese (日本語)), ar (Arabic (العربية)), fr (French (Français)), de (German (Deutsch)), ko (Korean (한국어)), th (Thai (ไทย))
+2025-08-02 12:35:14,557 - INFO - Loading image: /content/drive/MyDrive/PolyOCR_Inputs/your_document_image.png
+2025-08-02 12:35:14,570 - INFO - Applying OpenCV denoising...
+2025-08-02 12:35:15,150 - INFO - Saved opencv_denoised image: /content/drive/MyDrive/PolyOCR_Results/your_document_image_opencv_denoised.png
+2025-08-02 12:35:18,328 - INFO - Successfully loaded CRAFT model from: /content/drive/MyDrive/OCR/detection/craft_mlt_25k.pth
+2025-08-02 12:35:18,332 - INFO - Performing CRAFT text detection...
+2025-08-02 12:35:18,337 - INFO - Original image size: 554x256
+2025-08-02 12:35:18,337 - WARNING - No boxes detected with default thresholds, trying lower thresholds...
+2025-08-02 12:35:18,648 - INFO - Using CRAFT thresholds: text=0.4, link=0.2, low=0.2
+2025-08-02 12:35:18,648 - INFO - Detected 4 text regions after filtering
+2025-08-02 12:35:18,648 - WARNING - Language 'bn' not recognized
+2025-08-02 12:35:18,648 - WARNING - Language 'kn' not supported by EasyOCR, will use Tesseract
+2025-08-02 12:35:18,648 - WARNING - Language 'ar' not recognized
+2025-08-02 12:35:18,648 - INFO - Added 'en' for compatibility with 'ch_sim'
+2025-08-02 12:35:18,649 - INFO - Using languages with easyocr: ['Unknown (ch_sim)', 'English', 'French (Français)', 'Hindi (हिंदी)']
+2025-08-02 12:35:18,649 - WARNING - Language 'ch_sim' not recognized
+2025-08-02 12:35:19,130 - INFO - Initializing EasyOCR for languages: ['en', 'fr', 'hi']
+2025-08-02 12:35:19,137 - INFO - GPU available for EasyOCR: True
+2025-08-02 12:35:19,356 - ERROR - Pipeline failed: Devanagari is only compatible with English, try lang_list=["hi","mr","ne","en"]
+2025-08-02 12:35:19,359 - ERROR - ❌ Unexpected error: Devanagari is only compatible with English, try lang_list=["hi","mr","ne","en"]
+2025-08-02 12:36:37,376 - INFO - ================================================================================
+2025-08-02 12:36:37,377 - INFO - ENHANCED POLYOCR PIPELINE CONFIGURATION
+2025-08-02 12:36:37,377 - INFO - ================================================================================
+2025-08-02 12:36:37,377 - INFO - 📷 Image: /content/drive/MyDrive/PolyOCR_Inputs/your_document_image.png
+2025-08-02 12:36:37,377 - INFO - 📁 Output Directory: /content/drive/MyDrive/PolyOCR_Results/
+2025-08-02 12:36:37,378 - INFO - 🌍 Languages: hi+bn+te+ta+kn+en+zh+ja+ar+fr
+2025-08-02 12:36:37,378 - INFO - 🔧 Recognizer: easyocr
+2025-08-02 12:36:37,378 - INFO - 📐 Format Preservation: True
+2025-08-02 12:36:37,378 - INFO - 🌐 Translation Target: en
+2025-08-02 12:36:37,378 - INFO - 🧹 OpenCV Denoise: True
+2025-08-02 12:36:37,378 - INFO - 🧹 DnCNN Denoise: False
+2025-08-02 12:36:37,378 - INFO - 🎯 CRAFT Thresholds: text=0.4, link=0.2, low=0.2
+2025-08-02 12:36:37,378 - INFO - ⚙️  Post-processing: True
+2025-08-02 12:36:37,379 - INFO - 🎨 Visualization: True
+2025-08-02 12:36:37,379 - INFO - ================================================================================
+2025-08-02 12:36:37,397 - INFO - Initialized Enhanced OCR Pipeline on device: cuda
+2025-08-02 12:36:37,398 - INFO - Supported Languages:
+2025-08-02 12:36:37,398 - INFO - EasyOCR: hi (Hindi (हिंदी)), te (Telugu (తెలుగు)), ta (Tamil (தமிழ்)), en (English), zh (Chinese (中文)), ja (Japanese (日本語)), fr (French (Français)), de (German (Deutsch)), ko (Korean (한국어)), th (Thai (ไทย))
+2025-08-02 12:36:37,398 - INFO - Tesseract: hi (Hindi (हिंदी)), bn (Bengali (বাংলা)), te (Telugu (తెలుగు)), ta (Tamil (தமிழ்)), gu (Unknown (gu)), kn (Unknown (kn)), ml (Unknown (ml)), en (English), zh (Chinese (中文)), ja (Japanese (日本語)), ar (Arabic (العربية)), fr (French (Français)), de (German (Deutsch)), ko (Korean (한국어)), th (Thai (ไทย))
+2025-08-02 12:36:37,399 - INFO - Loading image: /content/drive/MyDrive/PolyOCR_Inputs/your_document_image.png
+2025-08-02 12:36:37,413 - INFO - Applying OpenCV denoising...
+2025-08-02 12:36:37,940 - INFO - Saved opencv_denoised image: /content/drive/MyDrive/PolyOCR_Results/your_document_image_opencv_denoised.png
+2025-08-02 12:36:40,372 - INFO - Successfully loaded CRAFT model from: /content/drive/MyDrive/OCR/detection/craft_mlt_25k.pth
+2025-08-02 12:36:40,375 - INFO - Performing CRAFT text detection...
+2025-08-02 12:36:40,376 - INFO - Original image size: 554x256
+2025-08-02 12:36:40,377 - WARNING - No boxes detected with default thresholds, trying lower thresholds...
+2025-08-02 12:36:40,593 - INFO - Using CRAFT thresholds: text=0.4, link=0.2, low=0.2
+2025-08-02 12:36:40,593 - INFO - Detected 4 text regions after filtering
+2025-08-02 12:36:40,593 - WARNING - Language 'bn' not recognized
+2025-08-02 12:36:40,593 - WARNING - Language 'kn' not supported by EasyOCR, will use Tesseract
+2025-08-02 12:36:40,594 - WARNING - Language 'ar' not recognized
+2025-08-02 12:36:40,594 - INFO - Added 'en' for compatibility with 'ch_sim'
+2025-08-02 12:36:40,594 - INFO - Using languages with easyocr: ['Unknown (ch_sim)', 'English']
+2025-08-02 12:36:40,594 - WARNING - Language 'ch_sim' not recognized
+2025-08-02 12:36:40,940 - INFO - Initializing EasyOCR for languages: ['en']
+2025-08-02 12:36:40,947 - INFO - GPU available for EasyOCR: True
+2025-08-02 12:36:41,117 - WARNING - Downloading recognition model, please wait. This may take several minutes depending upon your network connection.
+2025-08-02 12:36:42,606 - INFO - Download complete.
+2025-08-02 12:36:45,235 - INFO - Recognizing text from 4 regions with formatting preservation
+2025-08-02 12:36:45,890 - INFO - Successfully processed 4 regions, skipped 0 invalid regions
+2025-08-02 12:36:53,011 - INFO - NumExpr defaulting to 2 threads.
+2025-08-02 12:41:58,299 - WARNING - Post-processing module not found, returning original text
+2025-08-02 12:41:58,963 - INFO - Saved formatted text: /content/drive/MyDrive/PolyOCR_Results/your_document_image_formatted_text.txt
+2025-08-02 12:41:58,976 - INFO - Saved plain text: /content/drive/MyDrive/PolyOCR_Results/your_document_image_plain_text.txt
+2025-08-02 12:41:58,993 - INFO - Saved translation: /content/drive/MyDrive/PolyOCR_Results/your_document_image_translation.txt
+2025-08-02 12:42:05,112 - INFO - Saved language info: /content/drive/MyDrive/PolyOCR_Results/your_document_image_language_info.txt
+2025-08-02 12:42:05,128 - ERROR - Pipeline failed: Object of type bool is not JSON serializable
+2025-08-02 12:42:05,135 - ERROR - ❌ Unexpected error: Object of type bool is not JSON serializable
+2025-08-02 12:44:56,693 - INFO - ================================================================================
+2025-08-02 12:44:56,694 - INFO - ENHANCED POLYOCR PIPELINE CONFIGURATION
+2025-08-02 12:44:56,694 - INFO - ================================================================================
+2025-08-02 12:44:56,694 - INFO - 📷 Image: /content/drive/MyDrive/PolyOCR_Inputs/your_document_image.png
+2025-08-02 12:44:56,695 - INFO - 📁 Output Directory: /content/drive/MyDrive/PolyOCR_Results/
+2025-08-02 12:44:56,695 - INFO - 🌍 Languages: hi+bn+te+ta+kn+en+zh+ja+ar+fr
+2025-08-02 12:44:56,695 - INFO - 🔧 Recognizer: easyocr
+2025-08-02 12:44:56,695 - INFO - 📐 Format Preservation: True
+2025-08-02 12:44:56,695 - INFO - 🌐 Translation Target: en
+2025-08-02 12:44:56,695 - INFO - 🧹 OpenCV Denoise: True
+2025-08-02 12:44:56,695 - INFO - 🧹 DnCNN Denoise: False
+2025-08-02 12:44:56,695 - INFO - 🎯 CRAFT Thresholds: text=0.4, link=0.2, low=0.2
+2025-08-02 12:44:56,696 - INFO - ⚙️  Post-processing: True
+2025-08-02 12:44:56,696 - INFO - 🎨 Visualization: True
+2025-08-02 12:44:56,696 - INFO - ================================================================================
+2025-08-02 12:44:56,717 - INFO - Initialized Enhanced OCR Pipeline on device: cuda
+2025-08-02 12:44:56,717 - INFO - Supported Languages:
+2025-08-02 12:44:56,717 - INFO - EasyOCR: hi (Hindi (हिंदी)), bn (Bengali (বাংলা)), te (Telugu (తెలుగు)), ta (Tamil (தமிழ்)), en (English), zh (Chinese (中文)), ja (Japanese (日本語)), ar (Arabic (العربية)), fr (French (Français)), de (German (Deutsch)), ko (Korean (한국어)), th (Thai (ไทย))
+2025-08-02 12:44:56,718 - INFO - Tesseract: hi (Hindi (हिंदी)), bn (Bengali (বাংলা)), te (Telugu (తెలుగు)), ta (Tamil (தமிழ்)), gu (Unknown (gu)), kn (Unknown (kn)), ml (Unknown (ml)), en (English), zh (Chinese (中文)), ja (Japanese (日本語)), ar (Arabic (العربية)), fr (French (Français)), de (German (Deutsch)), ko (Korean (한국어)), th (Thai (ไทย))
+2025-08-02 12:44:56,720 - INFO - Loading image: /content/drive/MyDrive/PolyOCR_Inputs/your_document_image.png
+2025-08-02 12:44:56,736 - INFO - Applying OpenCV denoising...
+2025-08-02 12:44:57,271 - INFO - Saved opencv_denoised image: /content/drive/MyDrive/PolyOCR_Results/your_document_image_opencv_denoised.png
+2025-08-02 12:45:00,000 - INFO - Successfully loaded CRAFT model from: /content/drive/MyDrive/OCR/detection/craft_mlt_25k.pth
+2025-08-02 12:45:00,006 - INFO - Performing CRAFT text detection...
+2025-08-02 12:45:00,007 - INFO - Original image size: 554x256
+2025-08-02 12:45:00,007 - WARNING - No boxes detected with default thresholds, trying lower thresholds...
+2025-08-02 12:45:00,277 - INFO - Using CRAFT thresholds: text=0.4, link=0.2, low=0.2
+2025-08-02 12:45:00,277 - INFO - Detected 4 text regions after filtering
+2025-08-02 12:45:00,278 - WARNING - Language 'kn' not supported by EasyOCR, will use Tesseract
+2025-08-02 12:45:00,279 - INFO - Added English for compatibility with languages requiring it
+2025-08-02 12:45:00,279 - INFO - Using languages with easyocr: ['Arabic (العربية)', 'Bengali (বাংলা)', 'Unknown (ch_sim)', 'English', 'French (Français)', 'Hindi (हिंदी)', 'Japanese (日本語)', 'Tamil (தமிழ்)', 'Telugu (తెలుగు)']
+2025-08-02 12:45:00,279 - WARNING - Language 'ch_sim' not recognized
+2025-08-02 12:45:00,280 - INFO - Added English for compatibility with languages requiring it
+2025-08-02 12:45:00,823 - INFO - Added English for compatibility with languages requiring it
+2025-08-02 12:45:00,824 - INFO - Initializing EasyOCR for languages: ['ar', 'bn', 'en', 'fr', 'hi', 'ja', 'ta', 'te']
+2025-08-02 12:45:00,830 - INFO - GPU available for EasyOCR: True
+2025-08-02 12:45:01,284 - ERROR - EasyOCR initialization failed: Japanese is only compatible with English, try lang_list=["ja","en"]
+2025-08-02 12:45:01,285 - WARNING - Falling back to English-only EasyOCR
+2025-08-02 12:45:03,791 - INFO - EasyOCR initialized with English only
+2025-08-02 12:45:03,791 - INFO - Recognizing text from 4 regions with formatting preservation
+2025-08-02 12:45:04,241 - INFO - Successfully processed 4 regions, skipped 0 invalid regions
+2025-08-02 12:45:06,589 - INFO - NumExpr defaulting to 2 threads.
+2025-08-02 12:45:42,221 - WARNING - Post-processing module not found, returning original text
+2025-08-02 12:45:42,233 - INFO - Saved formatted text: /content/drive/MyDrive/PolyOCR_Results/your_document_image_formatted_text.txt
+2025-08-02 12:45:42,238 - INFO - Saved plain text: /content/drive/MyDrive/PolyOCR_Results/your_document_image_plain_text.txt
+2025-08-02 12:45:42,244 - INFO - Saved translation: /content/drive/MyDrive/PolyOCR_Results/your_document_image_translation.txt
+2025-08-02 12:45:42,249 - INFO - Saved language info: /content/drive/MyDrive/PolyOCR_Results/your_document_image_language_info.txt
+2025-08-02 12:45:42,254 - ERROR - Pipeline failed: Object of type bool is not JSON serializable
+2025-08-02 12:45:42,256 - ERROR - ❌ Unexpected error: Object of type bool is not JSON serializable
+2025-08-02 12:47:47,350 - INFO - ================================================================================
+2025-08-02 12:47:47,351 - INFO - ENHANCED POLYOCR PIPELINE CONFIGURATION
+2025-08-02 12:47:47,351 - INFO - ================================================================================
+2025-08-02 12:47:47,351 - INFO - 📷 Image: /content/drive/MyDrive/PolyOCR_Inputs/WhatsApp Image 2025-07-31 at 22.39.31.jpeg
+2025-08-02 12:47:47,351 - INFO - 📁 Output Directory: /content/drive/MyDrive/PolyOCR_Results/
+2025-08-02 12:47:47,351 - INFO - 🌍 Languages: hi+bn+te+ta+kn+en+zh+ja+ar+fr
+2025-08-02 12:47:47,351 - INFO - 🔧 Recognizer: easyocr
+2025-08-02 12:47:47,351 - INFO - 📐 Format Preservation: True
+2025-08-02 12:47:47,352 - INFO - 🌐 Translation Target: en
+2025-08-02 12:47:47,352 - INFO - 🧹 OpenCV Denoise: True
+2025-08-02 12:47:47,352 - INFO - 🧹 DnCNN Denoise: False
+2025-08-02 12:47:47,352 - INFO - 🎯 CRAFT Thresholds: text=0.4, link=0.2, low=0.2
+2025-08-02 12:47:47,352 - INFO - ⚙️  Post-processing: True
+2025-08-02 12:47:47,352 - INFO - 🎨 Visualization: True
+2025-08-02 12:47:47,352 - INFO - ================================================================================
+2025-08-02 12:47:47,371 - INFO - Initialized Enhanced OCR Pipeline on device: cuda
+2025-08-02 12:47:47,372 - INFO - Supported Languages:
+2025-08-02 12:47:47,372 - INFO - EasyOCR: hi (Hindi (हिंदी)), bn (Bengali (বাংলা)), te (Telugu (తెలుగు)), ta (Tamil (தமிழ்)), en (English), zh (Chinese (中文)), ja (Japanese (日本語)), ar (Arabic (العربية)), fr (French (Français)), de (German (Deutsch)), ko (Korean (한국어)), th (Thai (ไทย))
+2025-08-02 12:47:47,372 - INFO - Tesseract: hi (Hindi (हिंदी)), bn (Bengali (বাংলা)), te (Telugu (తెలుగు)), ta (Tamil (தமிழ்)), gu (Unknown (gu)), kn (Unknown (kn)), ml (Unknown (ml)), en (English), zh (Chinese (中文)), ja (Japanese (日本語)), ar (Arabic (العربية)), fr (French (Français)), de (German (Deutsch)), ko (Korean (한국어)), th (Thai (ไทย))
+2025-08-02 12:47:47,373 - INFO - Loading image: /content/drive/MyDrive/PolyOCR_Inputs/WhatsApp Image 2025-07-31 at 22.39.31.jpeg
+2025-08-02 12:47:49,016 - INFO - Applying OpenCV denoising...
+2025-08-02 12:47:53,382 - INFO - Saved opencv_denoised image: /content/drive/MyDrive/PolyOCR_Results/WhatsApp Image 2025-07-31 at 22.39.31_opencv_denoised.png
+2025-08-02 12:47:56,962 - INFO - Successfully loaded CRAFT model from: /content/drive/MyDrive/OCR/detection/craft_mlt_25k.pth
+2025-08-02 12:47:56,974 - INFO - Performing CRAFT text detection...
+2025-08-02 12:47:56,988 - INFO - Original image size: 1280x1280
+2025-08-02 12:47:56,989 - INFO - Processing at scale 1.0: 1280x1280
+2025-08-02 12:47:57,880 - INFO - Processing at scale 0.75: 960x960
+2025-08-02 12:47:58,299 - INFO - Processing at scale 0.5: 640x640
+2025-08-02 12:47:58,601 - INFO - Using CRAFT thresholds: text=0.4, link=0.2, low=0.2
+2025-08-02 12:47:58,601 - INFO - Detected 12 text regions after filtering
+2025-08-02 12:47:58,602 - WARNING - Language 'kn' not supported by EasyOCR, will use Tesseract
+2025-08-02 12:47:58,602 - INFO - Added English for compatibility with languages requiring it
+2025-08-02 12:47:58,602 - INFO - Using languages with easyocr: ['Arabic (العربية)', 'Bengali (বাংলা)', 'Unknown (ch_sim)', 'English', 'French (Français)', 'Hindi (हिंदी)', 'Japanese (日本語)', 'Tamil (தமிழ்)', 'Telugu (తెలుగు)']
+2025-08-02 12:47:58,602 - WARNING - Language 'ch_sim' not recognized
+2025-08-02 12:47:58,602 - INFO - Added English for compatibility with languages requiring it
+2025-08-02 12:47:59,262 - INFO - Added English for compatibility with languages requiring it
+2025-08-02 12:47:59,262 - INFO - Initializing EasyOCR for languages: ['ar', 'bn', 'en', 'fr', 'hi', 'ja', 'ta', 'te']
+2025-08-02 12:47:59,270 - INFO - GPU available for EasyOCR: True
+2025-08-02 12:47:59,480 - ERROR - EasyOCR initialization failed: Japanese is only compatible with English, try lang_list=["ja","en"]
+2025-08-02 12:47:59,480 - WARNING - Falling back to English-only EasyOCR
+2025-08-02 12:48:02,627 - INFO - EasyOCR initialized with English only
+2025-08-02 12:48:02,629 - INFO - Recognizing text from 12 regions with formatting preservation
+2025-08-02 12:48:03,521 - INFO - Successfully processed 7 regions, skipped 0 invalid regions
+2025-08-02 12:48:05,601 - INFO - NumExpr defaulting to 2 threads.
+2025-08-02 12:48:38,239 - WARNING - Post-processing module not found, returning original text
+2025-08-02 12:48:38,246 - INFO - Saved formatted text: /content/drive/MyDrive/PolyOCR_Results/WhatsApp Image 2025-07-31 at 22.39.31_formatted_text.txt
+2025-08-02 12:48:38,277 - INFO - Saved plain text: /content/drive/MyDrive/PolyOCR_Results/WhatsApp Image 2025-07-31 at 22.39.31_plain_text.txt
+2025-08-02 12:48:38,290 - INFO - Saved translation: /content/drive/MyDrive/PolyOCR_Results/WhatsApp Image 2025-07-31 at 22.39.31_translation.txt
+2025-08-02 12:48:38,300 - INFO - Saved language info: /content/drive/MyDrive/PolyOCR_Results/WhatsApp Image 2025-07-31 at 22.39.31_language_info.txt
+2025-08-02 12:48:38,310 - ERROR - Pipeline failed: Object of type bool is not JSON serializable
+2025-08-02 12:48:38,315 - ERROR - ❌ Unexpected error: Object of type bool is not JSON serializable
+2025-08-02 13:13:31,749 - INFO - ================================================================================
+2025-08-02 13:13:31,750 - INFO - OCR PIPELINE CONFIGURATION
+2025-08-02 13:13:31,750 - INFO - ================================================================================
+2025-08-02 13:13:31,750 - INFO - 📷 Image: /content/drive/MyDrive/PolyOCR_Inputs/WhatsApp Image 2025-07-31 at 22.39.31.jpeg
+2025-08-02 13:13:31,750 - INFO - 📁 Output Directory: /content/drive/MyDrive/PolyOCR_Results/
+2025-08-02 13:13:31,751 - INFO - 🌍 Languages: en hi
+2025-08-02 13:13:31,751 - INFO - 🔧 Recognizer: easyocr
+2025-08-02 13:13:31,751 - INFO - 📐 Format Preservation: True
+2025-08-02 13:13:31,751 - INFO - 🧹 OpenCV Denoise: True
+2025-08-02 13:13:31,751 - INFO - 🧹 DnCNN Denoise: False
+2025-08-02 13:13:31,751 - INFO - 🎯 CRAFT Thresholds: text=0.4, link=0.2, low=0.2
+2025-08-02 13:13:31,751 - INFO - ⚙️  Post-processing: True
+2025-08-02 13:13:31,752 - INFO - 🎨 Visualization: True
+2025-08-02 13:13:31,752 - INFO - ================================================================================
+2025-08-02 13:13:31,771 - INFO - Initialized OCR Pipeline on device: cuda
+2025-08-02 13:13:31,771 - INFO - Supported Languages:
+2025-08-02 13:13:31,771 - INFO -   en: English
+2025-08-02 13:13:31,772 - INFO -   hi: Hindi (हिंदी)
+2025-08-02 13:13:31,772 - INFO -   zh: Chinese (中文)
+2025-08-02 13:13:31,776 - INFO - Loading image: /content/drive/MyDrive/PolyOCR_Inputs/WhatsApp Image 2025-07-31 at 22.39.31.jpeg
+2025-08-02 13:13:31,812 - INFO - Applying OpenCV denoising...
+2025-08-02 13:13:36,173 - INFO - Saved opencv_denoised image: /content/drive/MyDrive/PolyOCR_Results/WhatsApp Image 2025-07-31 at 22.39.31_opencv_denoised.png
+2025-08-02 13:13:38,668 - INFO - Successfully loaded CRAFT model from: /content/drive/MyDrive/OCR/detection/craft_mlt_25k.pth
+2025-08-02 13:13:38,675 - INFO - Performing enhanced CRAFT text detection...
+2025-08-02 13:13:38,768 - INFO - Original image size: 1280x1280
+2025-08-02 13:13:38,769 - INFO - Processing variant 1/4
+2025-08-02 13:13:39,557 - INFO - Variant 1, scale 1.0: found 15 boxes
+2025-08-02 13:13:39,980 - INFO - Variant 1, scale 0.8: found 14 boxes
+2025-08-02 13:13:40,323 - INFO - Variant 1, scale 0.6: found 14 boxes
+2025-08-02 13:13:40,323 - INFO - Processing variant 2/4
+2025-08-02 13:13:40,887 - INFO - Variant 2, scale 1.0: found 15 boxes
+2025-08-02 13:13:41,257 - INFO - Variant 2, scale 0.8: found 11 boxes
+2025-08-02 13:13:41,599 - INFO - Variant 2, scale 0.6: found 15 boxes
+2025-08-02 13:13:41,600 - INFO - Processing variant 3/4
+2025-08-02 13:13:42,100 - INFO - Variant 3, scale 1.0: found 13 boxes
+2025-08-02 13:13:42,455 - INFO - Variant 3, scale 0.8: found 12 boxes
+2025-08-02 13:13:42,691 - INFO - Variant 3, scale 0.6: found 12 boxes
+2025-08-02 13:13:42,691 - INFO - Processing variant 4/4
+2025-08-02 13:13:43,089 - INFO - Variant 4, scale 1.0: found 13 boxes
+2025-08-02 13:13:43,394 - INFO - Variant 4, scale 0.8: found 13 boxes
+2025-08-02 13:13:43,634 - INFO - Variant 4, scale 0.6: found 15 boxes
+2025-08-02 13:13:43,639 - INFO - After filtering: 19 unique boxes
+2025-08-02 13:13:43,639 - INFO - Final result: 19 text regions detected
+2025-08-02 13:13:43,639 - INFO - Using languages: ['English', 'Hindi (हिंदी)']
+2025-08-02 13:13:43,996 - INFO - Initializing EasyOCR for languages: ['en', 'hi']
+2025-08-02 13:13:44,003 - INFO - GPU available for EasyOCR: True
+2025-08-02 13:13:44,173 - WARNING - Downloading recognition model, please wait. This may take several minutes depending upon your network connection.
+2025-08-02 13:14:04,022 - INFO - Download complete.
+2025-08-02 13:14:08,193 - INFO - EasyOCR initialized successfully
+2025-08-02 13:14:08,199 - INFO - Recognizing text from 19 regions
+2025-08-02 13:14:09,763 - INFO - Successfully processed 17 regions, skipped 0 invalid regions
+2025-08-02 13:14:11,502 - INFO - NumExpr defaulting to 2 threads.
+2025-08-02 13:14:47,048 - WARNING - Post-processing module not found, returning original text
+2025-08-02 13:14:47,059 - INFO - Saved formatted text: /content/drive/MyDrive/PolyOCR_Results/WhatsApp Image 2025-07-31 at 22.39.31_formatted_text.txt
+2025-08-02 13:14:47,066 - INFO - Saved plain text: /content/drive/MyDrive/PolyOCR_Results/WhatsApp Image 2025-07-31 at 22.39.31_plain_text.txt
+2025-08-02 13:14:47,071 - INFO - Saved language info: /content/drive/MyDrive/PolyOCR_Results/WhatsApp Image 2025-07-31 at 22.39.31_language_info.txt
+2025-08-02 13:14:47,095 - ERROR - Pipeline failed: Object of type bool is not JSON serializable
+2025-08-02 13:14:47,098 - ERROR - ❌ Unexpected error: Object of type bool is not JSON serializable
+2025-08-02 13:18:24,191 - INFO - ================================================================================
+2025-08-02 13:18:24,192 - INFO - OCR PIPELINE CONFIGURATION
+2025-08-02 13:18:24,192 - INFO - ================================================================================
+2025-08-02 13:18:24,192 - INFO - 📷 Image: /content/drive/MyDrive/PolyOCR_Inputs/WhatsApp Image 2025-07-31 at 22.39.31.jpeg
+2025-08-02 13:18:24,192 - INFO - 📁 Output Directory: /content/drive/MyDrive/PolyOCR_Results/
+2025-08-02 13:18:24,192 - INFO - 🌍 Languages: en hi
+2025-08-02 13:18:24,193 - INFO - 🔧 Recognizer: easyocr
+2025-08-02 13:18:24,193 - INFO - 📐 Format Preservation: True
+2025-08-02 13:18:24,193 - INFO - 🧹 OpenCV Denoise: True
+2025-08-02 13:18:24,193 - INFO - 🧹 DnCNN Denoise: False
+2025-08-02 13:18:24,193 - INFO - 🎯 CRAFT Thresholds: text=0.4, link=0.2, low=0.2
+2025-08-02 13:18:24,193 - INFO - ⚙️  Post-processing: True
+2025-08-02 13:18:24,193 - INFO - 🎨 Visualization: True
+2025-08-02 13:18:24,194 - INFO - ================================================================================
+2025-08-02 13:18:24,213 - INFO - Initialized OCR Pipeline on device: cuda
+2025-08-02 13:18:24,213 - INFO - Supported Languages:
+2025-08-02 13:18:24,213 - INFO -   en: English
+2025-08-02 13:18:24,213 - INFO -   hi: Hindi (हिंदी)
+2025-08-02 13:18:24,214 - INFO -   zh: Chinese (中文)
+2025-08-02 13:18:24,214 - INFO - Loading image: /content/drive/MyDrive/PolyOCR_Inputs/WhatsApp Image 2025-07-31 at 22.39.31.jpeg
+2025-08-02 13:18:24,246 - INFO - Applying OpenCV denoising...
+2025-08-02 13:18:28,561 - INFO - Saved opencv_denoised image: /content/drive/MyDrive/PolyOCR_Results/WhatsApp Image 2025-07-31 at 22.39.31_opencv_denoised.png
+2025-08-02 13:18:29,468 - INFO - ❌ Pipeline interrupted by user
+2025-08-02 13:18:42,753 - INFO - ================================================================================
+2025-08-02 13:18:42,754 - INFO - OCR PIPELINE CONFIGURATION
+2025-08-02 13:18:42,755 - INFO - ================================================================================
+2025-08-02 13:18:42,755 - INFO - 📷 Image: /content/drive/MyDrive/PolyOCR_Inputs/WhatsApp Image 2025-07-31 at 22.39.31.jpeg
+2025-08-02 13:18:42,755 - INFO - 📁 Output Directory: /content/drive/MyDrive/PolyOCR_Results/
+2025-08-02 13:18:42,755 - INFO - 🌍 Languages: en hi
+2025-08-02 13:18:42,755 - INFO - 🔧 Recognizer: easyocr
+2025-08-02 13:18:42,755 - INFO - 📐 Format Preservation: True
+2025-08-02 13:18:42,755 - INFO - 🧹 OpenCV Denoise: True
+2025-08-02 13:18:42,756 - INFO - 🧹 DnCNN Denoise: False
+2025-08-02 13:18:42,756 - INFO - 🎯 CRAFT Thresholds: text=0.4, link=0.2, low=0.2
+2025-08-02 13:18:42,756 - INFO - ⚙️  Post-processing: True
+2025-08-02 13:18:42,756 - INFO - 🎨 Visualization: True
+2025-08-02 13:18:42,756 - INFO - ================================================================================
+2025-08-02 13:18:42,775 - INFO - Initialized OCR Pipeline on device: cuda
+2025-08-02 13:18:42,775 - INFO - Supported Languages:
+2025-08-02 13:18:42,776 - INFO -   en: English
+2025-08-02 13:18:42,776 - INFO -   hi: Hindi (हिंदी)
+2025-08-02 13:18:42,776 - INFO -   zh: Chinese (中文)
+2025-08-02 13:18:42,777 - INFO - Loading image: /content/drive/MyDrive/PolyOCR_Inputs/WhatsApp Image 2025-07-31 at 22.39.31.jpeg
+2025-08-02 13:18:42,809 - INFO - Applying OpenCV denoising...
+2025-08-02 13:18:48,316 - INFO - Saved opencv_denoised image: /content/drive/MyDrive/PolyOCR_Results/WhatsApp Image 2025-07-31 at 22.39.31_opencv_denoised.png
+2025-08-02 13:18:51,040 - INFO - Successfully loaded CRAFT model from: /content/drive/MyDrive/OCR/detection/craft_mlt_25k.pth
+2025-08-02 13:18:51,047 - INFO - Performing enhanced CRAFT text detection...
+2025-08-02 13:18:51,134 - INFO - Original image size: 1280x1280
+2025-08-02 13:18:51,134 - INFO - Processing variant 1/4
+2025-08-02 13:18:51,823 - INFO - Variant 1, scale 1.0: found 15 boxes
+2025-08-02 13:18:52,159 - INFO - Variant 1, scale 0.8: found 14 boxes
+2025-08-02 13:18:52,398 - INFO - Variant 1, scale 0.6: found 14 boxes
+2025-08-02 13:18:52,399 - INFO - Processing variant 2/4
+2025-08-02 13:18:52,839 - INFO - Variant 2, scale 1.0: found 15 boxes
+2025-08-02 13:18:53,131 - INFO - Variant 2, scale 0.8: found 11 boxes
+2025-08-02 13:18:53,379 - INFO - Variant 2, scale 0.6: found 15 boxes
+2025-08-02 13:18:53,379 - INFO - Processing variant 3/4
+2025-08-02 13:18:53,798 - INFO - Variant 3, scale 1.0: found 13 boxes
+2025-08-02 13:18:54,095 - INFO - Variant 3, scale 0.8: found 12 boxes
+2025-08-02 13:18:54,319 - INFO - Variant 3, scale 0.6: found 12 boxes
+2025-08-02 13:18:54,320 - INFO - Processing variant 4/4
+2025-08-02 13:18:54,720 - INFO - Variant 4, scale 1.0: found 13 boxes
+2025-08-02 13:18:55,040 - INFO - Variant 4, scale 0.8: found 13 boxes
+2025-08-02 13:18:55,287 - INFO - Variant 4, scale 0.6: found 15 boxes
+2025-08-02 13:18:55,291 - INFO - After filtering: 19 unique boxes
+2025-08-02 13:18:55,291 - INFO - Final result: 19 text regions detected
+2025-08-02 13:18:55,291 - INFO - Using languages: ['English', 'Hindi (हिंदी)']
+2025-08-02 13:18:55,642 - INFO - Initializing EasyOCR for languages: ['en', 'hi']
+2025-08-02 13:18:55,650 - INFO - GPU available for EasyOCR: True
+2025-08-02 13:18:59,083 - INFO - EasyOCR initialized successfully
+2025-08-02 13:18:59,089 - INFO - Recognizing text from 19 regions
+2025-08-02 13:19:01,118 - INFO - Successfully processed 17 regions, skipped 0 invalid regions
+2025-08-02 13:19:03,236 - INFO - NumExpr defaulting to 2 threads.
+2025-08-02 13:19:31,416 - WARNING - Post-processing module not found, returning original text
+2025-08-02 13:19:31,426 - INFO - Saved formatted text: /content/drive/MyDrive/PolyOCR_Results/WhatsApp Image 2025-07-31 at 22.39.31_formatted_text.txt
+2025-08-02 13:19:31,432 - INFO - Saved plain text: /content/drive/MyDrive/PolyOCR_Results/WhatsApp Image 2025-07-31 at 22.39.31_plain_text.txt
+2025-08-02 13:19:31,438 - INFO - Saved language info: /content/drive/MyDrive/PolyOCR_Results/WhatsApp Image 2025-07-31 at 22.39.31_language_info.txt
+2025-08-02 13:19:31,443 - ERROR - Pipeline failed: Object of type bool is not JSON serializable
+2025-08-02 13:19:31,446 - ERROR - ❌ Unexpected error: Object of type bool is not JSON serializable
+2025-08-02 13:35:27,470 - INFO - ====================================================================================================
+2025-08-02 13:35:27,477 - INFO - ENHANCED OCR PIPELINE CONFIGURATION
+2025-08-02 13:35:27,477 - INFO - ====================================================================================================
+2025-08-02 13:35:27,477 - INFO - 📷 Image: /content/drive/MyDrive/PolyOCR_Inputs/WhatsApp Image 2025-07-31 at 22.39.31.jpeg
+2025-08-02 13:35:27,478 - INFO - 📁 Output Directory: /content/drive/MyDrive/PolyOCR_Results/
+2025-08-02 13:35:27,478 - INFO - 🌍 Languages: en hi
+2025-08-02 13:35:27,478 - INFO - 🔧 Recognizer: easyocr
+2025-08-02 13:35:27,478 - INFO - 📐 Enhanced Format Preservation: True
+2025-08-02 13:35:27,478 - INFO - 🧹 OpenCV Denoise: True
+2025-08-02 13:35:27,478 - INFO - 🧹 DnCNN Denoise: False
+2025-08-02 13:35:27,478 - INFO - 🎯 CRAFT Thresholds (optimized): text=0.5, link=0.3, low=0.3
+2025-08-02 13:35:27,478 - INFO - ⚙️  Post-processing: True
+2025-08-02 13:35:27,478 - INFO - 🎨 Enhanced Visualization: True
+2025-08-02 13:35:27,479 - INFO - 🔍 Duplicate Detection: ENABLED (Aggressive)
+2025-08-02 13:35:27,479 - INFO - 📊 Enhanced Formatting Analysis: ENABLED
+2025-08-02 13:35:27,479 - INFO - ====================================================================================================
+2025-08-02 13:35:27,479 - ERROR - ❌ Unexpected error: name 'OCRPipeline' is not defined
+2025-08-02 13:36:25,499 - INFO - ====================================================================================================
+2025-08-02 13:36:25,500 - INFO - ENHANCED OCR PIPELINE CONFIGURATION
+2025-08-02 13:36:25,501 - INFO - ====================================================================================================
+2025-08-02 13:36:25,501 - INFO - 📷 Image: /content/drive/MyDrive/PolyOCR_Inputs/WhatsApp Image 2025-07-31 at 22.39.31.jpeg
+2025-08-02 13:36:25,501 - INFO - 📁 Output Directory: /content/drive/MyDrive/PolyOCR_Results/
+2025-08-02 13:36:25,501 - INFO - 🌍 Languages: en hi
+2025-08-02 13:36:25,501 - INFO - 🔧 Recognizer: easyocr
+2025-08-02 13:36:25,501 - INFO - 📐 Enhanced Format Preservation: True
+2025-08-02 13:36:25,501 - INFO - 🧹 OpenCV Denoise: True
+2025-08-02 13:36:25,502 - INFO - 🧹 DnCNN Denoise: False
+2025-08-02 13:36:25,502 - INFO - 🎯 CRAFT Thresholds (optimized): text=0.5, link=0.3, low=0.3
+2025-08-02 13:36:25,502 - INFO - ⚙️  Post-processing: True
+2025-08-02 13:36:25,502 - INFO - 🎨 Enhanced Visualization: True
+2025-08-02 13:36:25,502 - INFO - 🔍 Duplicate Detection: ENABLED (Aggressive)
+2025-08-02 13:36:25,502 - INFO - 📊 Enhanced Formatting Analysis: ENABLED
+2025-08-02 13:36:25,502 - INFO - ====================================================================================================
+2025-08-02 13:36:25,502 - ERROR - ❌ Unexpected error: name 'OCRPipeline' is not defined
+2025-08-02 13:36:43,142 - INFO - ====================================================================================================
+2025-08-02 13:36:43,143 - INFO - ENHANCED OCR PIPELINE CONFIGURATION
+2025-08-02 13:36:43,143 - INFO - ====================================================================================================
+2025-08-02 13:36:43,144 - INFO - 📷 Image: /content/drive/MyDrive/PolyOCR_Inputs/WhatsApp Image 2025-07-31 at 22.39.31.jpeg
+2025-08-02 13:36:43,144 - INFO - 📁 Output Directory: /content/drive/MyDrive/PolyOCR_Results/
+2025-08-02 13:36:43,144 - INFO - 🌍 Languages: en hi
+2025-08-02 13:36:43,144 - INFO - 🔧 Recognizer: easyocr
+2025-08-02 13:36:43,144 - INFO - 📐 Enhanced Format Preservation: True
+2025-08-02 13:36:43,144 - INFO - 🧹 OpenCV Denoise: True
+2025-08-02 13:36:43,144 - INFO - 🧹 DnCNN Denoise: False
+2025-08-02 13:36:43,145 - INFO - 🎯 CRAFT Thresholds (optimized): text=0.5, link=0.3, low=0.3
+2025-08-02 13:36:43,145 - INFO - ⚙️  Post-processing: True
+2025-08-02 13:36:43,145 - INFO - 🎨 Enhanced Visualization: True
+2025-08-02 13:36:43,145 - INFO - 🔍 Duplicate Detection: ENABLED (Aggressive)
+2025-08-02 13:36:43,145 - INFO - 📊 Enhanced Formatting Analysis: ENABLED
+2025-08-02 13:36:43,145 - INFO - ====================================================================================================
+2025-08-02 13:36:43,145 - ERROR - ❌ Unexpected error: name 'OCRPipeline' is not defined
+2025-08-02 13:39:59,123 - INFO - ====================================================================================================
+2025-08-02 13:39:59,596 - INFO - ENHANCED OCR PIPELINE CONFIGURATION
+2025-08-02 13:39:59,596 - INFO - ====================================================================================================
+2025-08-02 13:39:59,597 - INFO - 📷 Image: /content/drive/MyDrive/PolyOCR_Inputs/WhatsApp Image 2025-07-31 at 22.39.31.jpeg
+2025-08-02 13:39:59,597 - INFO - 📁 Output Directory: /content/drive/MyDrive/PolyOCR_Results/
+2025-08-02 13:39:59,597 - INFO - 🌍 Languages: en hi
+2025-08-02 13:39:59,597 - INFO - 🔧 Recognizer: easyocr
+2025-08-02 13:39:59,597 - INFO - 📐 Enhanced Format Preservation: True
+2025-08-02 13:39:59,598 - INFO - 🧹 OpenCV Denoise: True
+2025-08-02 13:39:59,598 - INFO - 🧹 DnCNN Denoise: False
+2025-08-02 13:39:59,598 - INFO - 🎯 CRAFT Thresholds (optimized): text=0.5, link=0.3, low=0.3
+2025-08-02 13:39:59,598 - INFO - ⚙️  Post-processing: True
+2025-08-02 13:39:59,598 - INFO - 🎨 Enhanced Visualization: True
+2025-08-02 13:39:59,598 - INFO - 🔍 Duplicate Detection: ENABLED (Aggressive)
+2025-08-02 13:39:59,598 - INFO - 📊 Enhanced Formatting Analysis: ENABLED
+2025-08-02 13:39:59,599 - INFO - ====================================================================================================
+2025-08-02 13:39:59,599 - ERROR - ❌ Unexpected error: name 'EnhancedOCRPipeline' is not defined
+2025-08-02 14:07:44,195 - INFO - ================================================================================
+2025-08-02 14:07:44,196 - INFO - OCR PIPELINE CONFIGURATION
+2025-08-02 14:07:44,196 - INFO - ================================================================================
+2025-08-02 14:07:44,197 - INFO - 📷 Image: /content/drive/MyDrive/PolyOCR_Inputs/WhatsApp Image 2025-07-31 at 22.39.31.jpeg
+2025-08-02 14:07:44,197 - INFO - 📁 Output Directory: /content/drive/MyDrive/PolyOCR_Results/
+2025-08-02 14:07:44,197 - INFO - 🌍 Languages: en hi
+2025-08-02 14:07:44,197 - INFO - 🔧 Recognizer: easyocr
+2025-08-02 14:07:44,197 - INFO - 📐 Format Preservation: True
+2025-08-02 14:07:44,198 - INFO - 🧹 OpenCV Denoise: True
+2025-08-02 14:07:44,198 - INFO - 🧹 DnCNN Denoise: False
+2025-08-02 14:07:44,198 - INFO - 🎯 CRAFT Thresholds: text=0.4, link=0.2, low=0.2
+2025-08-02 14:07:44,198 - INFO - ⚙️  Post-processing: True
+2025-08-02 14:07:44,199 - INFO - 🎨 Visualization: True
+2025-08-02 14:07:44,199 - INFO - ================================================================================
+2025-08-02 14:07:44,202 - INFO - Initialized OCR Pipeline on device: cpu
+2025-08-02 14:07:44,202 - INFO - Supported Languages:
+2025-08-02 14:07:44,202 - INFO -   en: English
+2025-08-02 14:07:44,203 - INFO -   hi: Hindi (हिंदी)
+2025-08-02 14:07:44,203 - INFO -   zh: Chinese (中文)
+2025-08-02 14:07:44,204 - INFO - Loading image: /content/drive/MyDrive/PolyOCR_Inputs/WhatsApp Image 2025-07-31 at 22.39.31.jpeg
+2025-08-02 14:07:44,549 - INFO - Applying OpenCV denoising...
+2025-08-02 14:07:50,242 - INFO - Saved opencv_denoised image: /content/drive/MyDrive/PolyOCR_Results/WhatsApp Image 2025-07-31 at 22.39.31_opencv_denoised.png
+2025-08-02 14:08:00,489 - INFO - Successfully loaded CRAFT model from: /content/drive/MyDrive/OCR/detection/craft_mlt_25k.pth
+2025-08-02 14:08:00,934 - INFO - Performing enhanced CRAFT text detection...
+2025-08-02 14:08:01,055 - INFO - Original image size: 1280x1280
+2025-08-02 14:08:01,056 - INFO - Processing variant 1/4
+2025-08-02 14:08:27,306 - INFO - Variant 1, scale 1.0: found 15 boxes
+2025-08-02 14:08:43,645 - INFO - Variant 1, scale 0.8: found 14 boxes
+2025-08-02 14:08:53,283 - INFO - Variant 1, scale 0.6: found 14 boxes
+2025-08-02 14:08:53,284 - INFO - Processing variant 2/4
+2025-08-02 14:09:26,701 - INFO - Variant 2, scale 1.0: found 15 boxes
+2025-08-02 14:09:43,775 - INFO - Variant 2, scale 0.8: found 11 boxes
+2025-08-02 14:09:53,442 - INFO - Variant 2, scale 0.6: found 15 boxes
+2025-08-02 14:09:53,443 - INFO - Processing variant 3/4
+2025-08-02 14:10:23,172 - INFO - Variant 3, scale 1.0: found 13 boxes
+2025-08-02 14:10:40,255 - INFO - Variant 3, scale 0.8: found 12 boxes
+2025-08-02 14:10:49,953 - INFO - Variant 3, scale 0.6: found 12 boxes
+2025-08-02 14:10:49,954 - INFO - Processing variant 4/4
+2025-08-02 14:11:16,135 - INFO - Variant 4, scale 1.0: found 13 boxes
+2025-08-02 14:11:32,862 - INFO - Variant 4, scale 0.8: found 13 boxes
+2025-08-02 14:11:42,338 - INFO - Variant 4, scale 0.6: found 15 boxes
+2025-08-02 14:11:42,344 - INFO - After filtering: 19 unique boxes
+2025-08-02 14:11:42,344 - INFO - Final result: 19 text regions detected
+2025-08-02 14:11:42,345 - INFO - Using languages: ['English', 'Hindi (हिंदी)']
+2025-08-02 14:11:42,346 - ERROR - Failed to import easyocr: No module named 'easyocr'
+2025-08-02 14:11:42,346 - ERROR - Pipeline failed: Recognizer import failed: No module named 'easyocr'
+2025-08-02 14:11:42,356 - ERROR - ❌ OCR Pipeline Error: Recognizer import failed: No module named 'easyocr'
+2025-08-02 14:33:16,658 - INFO - Initialized OCR Pipeline on device: cpu
+2025-08-02 14:33:16,659 - INFO - Supported Languages:
+2025-08-02 14:33:16,659 - INFO -   en: English
+2025-08-02 14:33:16,660 - INFO -   hi: Hindi (हिंदी)
+2025-08-02 14:33:16,660 - INFO -   zh: Chinese (中文)
+2025-08-02 14:33:16,661 - INFO - Loading image: /content/drive/MyDrive/PolyOCR_Inputs/WhatsApp Image 2025-07-31 at 22.39.31.jpeg
+2025-08-02 14:33:16,755 - INFO - Applying OpenCV denoising...
+2025-08-02 14:33:26,675 - INFO - Successfully loaded CRAFT model from: /content/drive/MyDrive/OCR/detection/craft_mlt_25k.pth
+2025-08-02 14:33:26,681 - INFO - Performing enhanced CRAFT text detection...
+2025-08-02 14:33:26,789 - INFO - Original image size: 1280x1280
+2025-08-02 14:33:26,790 - INFO - Processing variant 1/4
+2025-08-02 14:33:55,433 - INFO - Variant 1, scale 1.0: found 20 boxes
+2025-08-02 14:34:12,231 - INFO - Variant 1, scale 0.8: found 18 boxes
+2025-08-02 14:34:21,639 - INFO - Variant 1, scale 0.6: found 16 boxes
+2025-08-02 14:34:21,640 - INFO - Processing variant 2/4
+2025-08-02 14:34:48,208 - INFO - Variant 2, scale 1.0: found 17 boxes
+2025-08-02 14:35:04,903 - INFO - Variant 2, scale 0.8: found 16 boxes
+2025-08-02 14:35:14,641 - INFO - Variant 2, scale 0.6: found 17 boxes
+2025-08-02 14:35:14,641 - INFO - Processing variant 3/4
+2025-08-02 14:35:43,862 - INFO - Variant 3, scale 1.0: found 18 boxes
+2025-08-02 14:36:01,767 - INFO - Variant 3, scale 0.8: found 19 boxes
+2025-08-02 14:36:11,478 - INFO - Variant 3, scale 0.6: found 15 boxes
+2025-08-02 14:36:11,478 - INFO - Processing variant 4/4
+2025-08-02 14:36:37,682 - INFO - Variant 4, scale 1.0: found 20 boxes
+2025-08-02 14:36:54,955 - INFO - Variant 4, scale 0.8: found 17 boxes
+2025-08-02 14:37:04,813 - INFO - Variant 4, scale 0.6: found 18 boxes
+2025-08-02 14:37:04,821 - INFO - After filtering: 18 unique boxes
+2025-08-02 14:37:04,821 - INFO - Final result: 18 text regions detected
+2025-08-02 14:37:04,822 - INFO - Using languages: ['English']
+2025-08-02 14:37:04,824 - ERROR - Failed to import easyocr: No module named 'easyocr'
+2025-08-02 14:37:04,824 - ERROR - Pipeline failed: Recognizer import failed: No module named 'easyocr'
+2025-08-02 14:37:04,830 - ERROR - OCR Pipeline Error: Recognizer import failed: No module named 'easyocr'
+2025-08-02 14:43:46,293 - INFO - Initialized OCR Pipeline on device: cpu
+2025-08-02 14:43:46,295 - INFO - Supported Languages:
+2025-08-02 14:43:46,296 - INFO -   en: English
+2025-08-02 14:43:46,296 - INFO -   hi: Hindi (हिंदी)
+2025-08-02 14:43:46,296 - INFO -   zh: Chinese (中文)
+2025-08-02 14:43:46,297 - INFO - Loading image: /content/drive/MyDrive/PolyOCR_Inputs/WhatsApp Image 2025-07-31 at 22.39.31.jpeg
+2025-08-02 14:43:46,342 - INFO - Applying OpenCV denoising...
+2025-08-02 14:43:54,933 - INFO - Successfully loaded CRAFT model from: /content/drive/MyDrive/OCR/detection/craft_mlt_25k.pth
+2025-08-02 14:43:54,943 - INFO - Performing enhanced CRAFT text detection...
+2025-08-02 14:43:55,132 - INFO - Original image size: 1280x1280
+2025-08-02 14:43:55,133 - INFO - Processing variant 1/4
+2025-08-02 14:44:22,678 - INFO - Variant 1, scale 1.0: found 20 boxes
+2025-08-02 14:44:41,196 - INFO - Variant 1, scale 0.8: found 18 boxes
+2025-08-02 14:44:50,127 - INFO - Variant 1, scale 0.6: found 16 boxes
+2025-08-02 14:44:50,128 - INFO - Processing variant 2/4
+2025-08-02 14:45:17,376 - INFO - Variant 2, scale 1.0: found 17 boxes
+2025-08-02 14:45:35,056 - INFO - Variant 2, scale 0.8: found 16 boxes
+2025-08-02 14:45:43,641 - INFO - Variant 2, scale 0.6: found 17 boxes
+2025-08-02 14:45:43,641 - INFO - Processing variant 3/4
+2025-08-02 14:46:10,501 - INFO - Variant 3, scale 1.0: found 18 boxes
+2025-08-02 14:46:27,454 - INFO - Variant 3, scale 0.8: found 19 boxes
+2025-08-02 14:46:36,955 - INFO - Variant 3, scale 0.6: found 15 boxes
+2025-08-02 14:46:36,956 - INFO - Processing variant 4/4
+2025-08-02 14:47:05,294 - INFO - Variant 4, scale 1.0: found 20 boxes
+2025-08-02 14:47:22,546 - INFO - Variant 4, scale 0.8: found 17 boxes
+2025-08-02 14:47:32,345 - INFO - Variant 4, scale 0.6: found 18 boxes
+2025-08-02 14:47:32,353 - INFO - After filtering: 18 unique boxes
+2025-08-02 14:47:32,353 - INFO - Final result: 18 text regions detected
+2025-08-02 14:47:32,359 - INFO - Using languages: ['English']
+2025-08-02 14:47:33,245 - INFO - Initializing EasyOCR for languages: ['en']
+2025-08-02 14:47:33,245 - INFO - GPU available for EasyOCR: False
+2025-08-02 14:47:33,246 - WARNING - Using CPU. Note: This module is much faster with a GPU.
+2025-08-02 14:47:33,247 - WARNING - Downloading detection model, please wait. This may take several minutes depending upon your network connection.
+2025-08-02 14:47:36,382 - INFO - Download complete
+2025-08-02 14:47:36,383 - WARNING - Downloading recognition model, please wait. This may take several minutes depending upon your network connection.
+2025-08-02 14:47:37,686 - INFO - Download complete.
+2025-08-02 14:47:41,372 - INFO - EasyOCR initialized successfully
+2025-08-02 14:47:41,375 - INFO - Recognizing text from 18 regions
+2025-08-02 14:48:06,658 - INFO - Successfully processed 14 regions, skipped 0 invalid regions
+2025-08-02 14:48:06,659 - INFO - Post-processing is enabled and applied during text recognition.
+2025-08-02 14:48:06,664 - INFO - Plain text saved to: /content/drive/MyDrive/PolyOCR_Results/WhatsApp Image 2025-07-31 at 22.39.31_plain.txt
+2025-08-02 14:48:06,686 - INFO - Formatted text saved to: /content/drive/MyDrive/PolyOCR_Results/WhatsApp Image 2025-07-31 at 22.39.31_formatted.txt
+2025-08-02 14:48:07,099 - INFO - Language info saved to: /content/drive/MyDrive/PolyOCR_Results/WhatsApp Image 2025-07-31 at 22.39.31_language_info.txt
+2025-08-02 14:48:07,106 - ERROR - Pipeline failed: Object of type float32 is not JSON serializable
+2025-08-02 14:48:07,111 - ERROR - An unexpected error occurred: Object of type float32 is not JSON serializable
+2025-08-02 14:50:33,382 - INFO - Initialized OCR Pipeline on device: cpu
+2025-08-02 14:50:33,383 - INFO - Supported Languages:
+2025-08-02 14:50:33,383 - INFO -   en: English
+2025-08-02 14:50:33,384 - INFO -   hi: Hindi (हिंदी)
+2025-08-02 14:50:33,384 - INFO -   zh: Chinese (中文)
+2025-08-02 14:50:33,385 - INFO - Loading image: /content/drive/MyDrive/PolyOCR_Inputs/Hindi_Multiline_hi.jpg.jpg
+2025-08-02 14:50:33,800 - INFO - Applying OpenCV denoising...
+2025-08-02 14:50:41,864 - INFO - Successfully loaded CRAFT model from: /content/drive/MyDrive/OCR/detection/craft_mlt_25k.pth
+2025-08-02 14:50:41,870 - INFO - Performing enhanced CRAFT text detection...
+2025-08-02 14:50:41,969 - INFO - Original image size: 720x1280
+2025-08-02 14:50:41,969 - INFO - Processing variant 1/4
+2025-08-02 14:50:57,824 - INFO - Variant 1, scale 1.0: found 21 boxes
+2025-08-02 14:51:06,184 - INFO - Variant 1, scale 0.8: found 22 boxes
+2025-08-02 14:51:12,348 - INFO - Variant 1, scale 0.6: found 18 boxes
+2025-08-02 14:51:12,349 - INFO - Processing variant 2/4
+2025-08-02 14:51:28,016 - INFO - Variant 2, scale 1.0: found 24 boxes
+2025-08-02 14:51:37,540 - INFO - Variant 2, scale 0.8: found 22 boxes
+2025-08-02 14:51:42,385 - INFO - Variant 2, scale 0.6: found 23 boxes
+2025-08-02 14:51:42,385 - INFO - Processing variant 3/4
+2025-08-02 14:51:57,497 - INFO - Variant 3, scale 1.0: found 23 boxes
+2025-08-02 14:52:07,380 - INFO - Variant 3, scale 0.8: found 21 boxes
+2025-08-02 14:52:12,232 - INFO - Variant 3, scale 0.6: found 18 boxes
+2025-08-02 14:52:12,233 - INFO - Processing variant 4/4
+2025-08-02 14:52:27,741 - INFO - Variant 4, scale 1.0: found 21 boxes
+2025-08-02 14:52:37,919 - INFO - Variant 4, scale 0.8: found 20 boxes
+2025-08-02 14:52:42,601 - INFO - Variant 4, scale 0.6: found 23 boxes
+2025-08-02 14:52:42,612 - INFO - After filtering: 36 unique boxes
+2025-08-02 14:52:42,613 - INFO - Final result: 36 text regions detected
+2025-08-02 14:52:42,613 - INFO - Using languages: ['English']
+2025-08-02 14:52:43,058 - INFO - Initializing EasyOCR for languages: ['en']
+2025-08-02 14:52:43,058 - INFO - GPU available for EasyOCR: False
+2025-08-02 14:52:43,058 - WARNING - Using CPU. Note: This module is much faster with a GPU.
+2025-08-02 14:52:47,310 - INFO - EasyOCR initialized successfully
+2025-08-02 14:52:47,314 - INFO - Recognizing text from 36 regions
+2025-08-02 14:53:11,078 - INFO - Successfully processed 22 regions, skipped 0 invalid regions
+2025-08-02 14:53:11,078 - INFO - Post-processing is enabled and applied during text recognition.
+2025-08-02 14:53:11,085 - INFO - Plain text saved to: /content/drive/MyDrive/PolyOCR_Results/Hindi_Multiline_hi.jpg_plain.txt
+2025-08-02 14:53:11,091 - INFO - Formatted text saved to: /content/drive/MyDrive/PolyOCR_Results/Hindi_Multiline_hi.jpg_formatted.txt
+2025-08-02 14:53:11,097 - INFO - Language info saved to: /content/drive/MyDrive/PolyOCR_Results/Hindi_Multiline_hi.jpg_language_info.txt
+2025-08-02 14:53:11,104 - ERROR - Pipeline failed: Object of type float32 is not JSON serializable
+2025-08-02 14:53:11,107 - ERROR - An unexpected error occurred: Object of type float32 is not JSON serializable
+2025-08-02 14:55:57,871 - INFO - Initialized OCR Pipeline on device: cpu
+2025-08-02 14:55:57,877 - INFO - Supported Languages:
+2025-08-02 14:55:57,878 - INFO -   en: English
+2025-08-02 14:55:57,878 - INFO -   hi: Hindi (हिंदी)
+2025-08-02 14:55:57,878 - INFO -   zh: Chinese (中文)
+2025-08-02 14:55:57,879 - INFO - Loading image: /content/drive/MyDrive/PolyOCR_Inputs/00af69e2180ec99677211a42d2eae237.jpg
+2025-08-02 14:55:58,113 - INFO - Applying OpenCV denoising...
+2025-08-02 14:56:01,780 - INFO - Successfully loaded CRAFT model from: /content/drive/MyDrive/OCR/detection/craft_mlt_25k.pth
+2025-08-02 14:56:01,788 - INFO - Performing enhanced CRAFT text detection...
+2025-08-02 14:56:01,809 - INFO - Original image size: 544x586
+2025-08-02 14:56:01,809 - INFO - Processing variant 1/4
+2025-08-02 14:56:06,398 - INFO - Variant 1, scale 1.0: found 85 boxes
+2025-08-02 14:56:06,398 - INFO - Processing variant 2/4
+2025-08-02 14:56:12,255 - INFO - Variant 2, scale 1.0: found 85 boxes
+2025-08-02 14:56:12,256 - INFO - Processing variant 3/4
+2025-08-02 14:56:16,761 - INFO - Variant 3, scale 1.0: found 82 boxes
+2025-08-02 14:56:16,761 - INFO - Processing variant 4/4
+2025-08-02 14:56:21,866 - INFO - Variant 4, scale 1.0: found 86 boxes
+2025-08-02 14:56:21,905 - INFO - After filtering: 57 unique boxes
+2025-08-02 14:56:21,905 - INFO - Final result: 57 text regions detected
+2025-08-02 14:56:21,906 - INFO - Using languages: ['English']
+2025-08-02 14:56:22,536 - INFO - Initializing EasyOCR for languages: ['en']
+2025-08-02 14:56:22,537 - INFO - GPU available for EasyOCR: False
+2025-08-02 14:56:22,537 - WARNING - Using CPU. Note: This module is much faster with a GPU.
+2025-08-02 14:56:25,961 - INFO - EasyOCR initialized successfully
+2025-08-02 14:56:25,963 - INFO - Recognizing text from 57 regions
+2025-08-02 14:56:41,894 - INFO - Successfully processed 17 regions, skipped 0 invalid regions
+2025-08-02 14:56:41,895 - INFO - Post-processing is enabled and applied during text recognition.
+2025-08-02 14:56:41,901 - INFO - Plain text saved to: /content/drive/MyDrive/PolyOCR_Results/00af69e2180ec99677211a42d2eae237_plain.txt
+2025-08-02 14:56:41,908 - INFO - Formatted text saved to: /content/drive/MyDrive/PolyOCR_Results/00af69e2180ec99677211a42d2eae237_formatted.txt
+2025-08-02 14:56:41,914 - INFO - Language info saved to: /content/drive/MyDrive/PolyOCR_Results/00af69e2180ec99677211a42d2eae237_language_info.txt
+2025-08-02 14:56:41,920 - ERROR - Pipeline failed: Object of type float32 is not JSON serializable
+2025-08-02 14:56:41,925 - ERROR - An unexpected error occurred: Object of type float32 is not JSON serializable
+2025-08-02 15:07:36,420 - INFO - Initialized OCR Pipeline on device: cpu
+2025-08-02 15:07:36,421 - INFO - Supported Languages:
+2025-08-02 15:07:36,422 - INFO -    en: English
+2025-08-02 15:07:36,422 - INFO -    hi: Hindi (हिंदी)
+2025-08-02 15:07:36,422 - INFO -    zh: Chinese (中文)
+2025-08-02 15:07:36,423 - INFO - Loading image: /content/drive/MyDrive/PolyOCR_Inputs/00af69e2180ec99677211a42d2eae237.jpg
+2025-08-02 15:07:36,449 - INFO - Applying OpenCV denoising...
+2025-08-02 15:07:41,362 - INFO - Successfully loaded CRAFT model from: /content/drive/MyDrive/OCR/detection/craft_mlt_25k.pth
+2025-08-02 15:07:41,366 - INFO - Performing enhanced CRAFT text detection...
+2025-08-02 15:07:41,386 - INFO - Original image size: 544x586
+2025-08-02 15:07:41,387 - INFO - Processing variant 1/4
+2025-08-02 15:07:46,350 - INFO - Variant 1, scale 1.0: found 85 boxes
+2025-08-02 15:07:46,351 - INFO - Processing variant 2/4
+2025-08-02 15:07:51,802 - INFO - Variant 2, scale 1.0: found 85 boxes
+2025-08-02 15:07:51,803 - INFO - Processing variant 3/4
+2025-08-02 15:07:56,265 - INFO - Variant 3, scale 1.0: found 82 boxes
+2025-08-02 15:07:56,265 - INFO - Processing variant 4/4
+2025-08-02 15:08:01,732 - INFO - Variant 4, scale 1.0: found 86 boxes
+2025-08-02 15:08:01,776 - INFO - After filtering: 57 unique boxes
+2025-08-02 15:08:01,777 - INFO - Final result: 57 text regions detected
+2025-08-02 15:08:01,777 - INFO - Using languages: ['English']
+2025-08-02 15:08:02,375 - INFO - Initializing EasyOCR for languages: ['en']
+2025-08-02 15:08:02,383 - INFO - GPU available for EasyOCR: False
+2025-08-02 15:08:02,384 - WARNING - Using CPU. Note: This module is much faster with a GPU.
+2025-08-02 15:08:05,564 - INFO - EasyOCR initialized successfully
+2025-08-02 15:08:05,566 - INFO - Recognizing text from 57 regions
+2025-08-02 15:08:16,907 - INFO - Successfully processed 20 unique regions, skipped 0 invalid/duplicate regions.
+2025-08-02 15:08:16,915 - INFO - Plain text saved to: /content/drive/MyDrive/PolyOCR_Results/00af69e2180ec99677211a42d2eae237_plain.txt
+2025-08-02 15:08:16,922 - INFO - Formatted text saved to: /content/drive/MyDrive/PolyOCR_Results/00af69e2180ec99677211a42d2eae237_formatted.txt
+2025-08-02 15:08:16,928 - INFO - Language info saved to: /content/drive/MyDrive/PolyOCR_Results/00af69e2180ec99677211a42d2eae237_language_info.txt
+2025-08-02 15:08:16,935 - INFO - Detailed JSON output saved to: /content/drive/MyDrive/PolyOCR_Results/00af69e2180ec99677211a42d2eae237_details.json
+2025-08-02 15:08:16,936 - INFO - Drawing detection boxes on image...
+2025-08-02 15:08:16,949 - INFO - Image with detected boxes and text saved to: /content/drive/MyDrive/PolyOCR_Results/00af69e2180ec99677211a42d2eae237_detected_boxes.jpg
+2025-08-02 15:08:16,956 - INFO - Detection info saved to: /content/drive/MyDrive/PolyOCR_Results/00af69e2180ec99677211a42d2eae237_detection_info.json
+2025-08-02 15:08:16,956 - INFO - OCR pipeline completed successfully!
+2025-08-02 15:08:16,956 - INFO - 
+==================================================
+2025-08-02 15:08:16,956 - INFO - Formatted OCR Output:
+2025-08-02 15:08:16,957 - INFO - ==================================================
+
+2025-08-02 15:08:16,957 - INFO - 
+==================================================
+2025-08-02 15:08:16,957 - INFO - Language Detection Summary:
+2025-08-02 15:08:16,957 - INFO - ==================================================
+
+2025-08-02 15:16:29,437 - INFO - Initialized OCR Pipeline on device: cpu
+2025-08-02 15:16:29,438 - INFO - Supported Languages:
+2025-08-02 15:16:29,438 - INFO -    en: English
+2025-08-02 15:16:29,438 - INFO -    hi: Hindi (हिंदी)
+2025-08-02 15:16:29,439 - INFO -    zh: Chinese (中文)
+2025-08-02 15:16:29,440 - INFO - Loading image: /content/drive/MyDrive/PolyOCR_Inputs/00af69e2180ec99677211a42d2eae237.jpg
+2025-08-02 15:16:29,468 - INFO - Applying OpenCV denoising...
+2025-08-02 15:16:30,590 - INFO - Using languages: ['English']
+2025-08-02 15:16:31,036 - INFO - Initializing EasyOCR for languages: ['en']
+2025-08-02 15:16:31,037 - INFO - GPU available for EasyOCR: False
+2025-08-02 15:16:31,037 - WARNING - Using CPU. Note: This module is much faster with a GPU.
+2025-08-02 15:16:36,256 - INFO - EasyOCR initialized successfully with integrated detector
+2025-08-02 15:16:36,256 - INFO - Using EasyOCR's integrated detection and recognition.
+2025-08-02 15:16:43,011 - ERROR - Pipeline failed: 'AdvancedTextRecognizer' object has no attribute 'process_easyocr_raw_results'
+2025-08-02 15:16:43,012 - ERROR - An unexpected error occurred: 'AdvancedTextRecognizer' object has no attribute 'process_easyocr_raw_results'
+2025-08-02 15:20:15,236 - INFO - Initialized OCR Pipeline on device: cpu
+2025-08-02 15:20:15,239 - INFO - Supported Languages:
+2025-08-02 15:20:15,239 - INFO -    en: English
+2025-08-02 15:20:15,240 - INFO -    hi: Hindi (हिंदी)
+2025-08-02 15:20:15,240 - INFO -    zh: Chinese (中文)
+2025-08-02 15:20:15,241 - INFO - Loading image: /content/drive/MyDrive/PolyOCR_Inputs/00af69e2180ec99677211a42d2eae237.jpg
+2025-08-02 15:20:15,296 - INFO - Applying OpenCV denoising...
+2025-08-02 15:20:18,001 - INFO - Using languages: ['English']
+2025-08-02 15:20:19,340 - INFO - Initializing EasyOCR for languages: ['en']
+2025-08-02 15:20:19,340 - INFO - GPU available for EasyOCR: False
+2025-08-02 15:20:19,340 - WARNING - Using CPU. Note: This module is much faster with a GPU.
+2025-08-02 15:20:24,743 - INFO - EasyOCR initialized successfully with integrated detector
+2025-08-02 15:20:24,743 - INFO - Using EasyOCR's integrated detection and recognition.
+2025-08-02 15:20:31,850 - INFO - Processing 23 raw EasyOCR results.
+2025-08-02 15:20:31,861 - INFO - Successfully processed 23 unique EasyOCR regions, skipped 0 invalid/duplicate regions.
+2025-08-02 15:20:31,870 - INFO - Plain text saved to: /content/drive/MyDrive/PolyOCR_Results/00af69e2180ec99677211a42d2eae237_plain.txt
+2025-08-02 15:20:31,877 - INFO - Formatted text saved to: /content/drive/MyDrive/PolyOCR_Results/00af69e2180ec99677211a42d2eae237_formatted.txt
+2025-08-02 15:20:31,893 - INFO - Language info saved to: /content/drive/MyDrive/PolyOCR_Results/00af69e2180ec99677211a42d2eae237_language_info.txt
+2025-08-02 15:20:31,901 - INFO - Detailed JSON output saved to: /content/drive/MyDrive/PolyOCR_Results/00af69e2180ec99677211a42d2eae237_details.json
+2025-08-02 15:20:31,908 - INFO - Detection info saved to: /content/drive/MyDrive/PolyOCR_Results/00af69e2180ec99677211a42d2eae237_detection_info.json
+2025-08-02 15:20:31,908 - INFO - OCR pipeline completed successfully!
+2025-08-02 15:20:31,909 - INFO - 
+==================================================
+2025-08-02 15:20:31,909 - INFO - Formatted OCR Output:
+2025-08-02 15:20:31,909 - INFO - ==================================================
+
+2025-08-02 15:20:31,909 - INFO - 
+==================================================
+2025-08-02 15:20:31,909 - INFO - Language Detection Summary:
+2025-08-02 15:20:31,909 - INFO - ==================================================
+
+2025-08-02 15:20:38,346 - INFO - Initialized OCR Pipeline on device: cpu
+2025-08-02 15:20:38,347 - INFO - Supported Languages:
+2025-08-02 15:20:38,347 - INFO -    en: English
+2025-08-02 15:20:38,348 - INFO -    hi: Hindi (हिंदी)
+2025-08-02 15:20:38,348 - INFO -    zh: Chinese (中文)
+2025-08-02 15:20:38,349 - INFO - Loading image: /content/drive/MyDrive/PolyOCR_Inputs/00af69e2180ec99677211a42d2eae237.jpg
+2025-08-02 15:20:38,373 - INFO - Applying OpenCV denoising...
+2025-08-02 15:20:39,450 - INFO - Using languages: ['English']
+2025-08-02 15:20:39,904 - INFO - Initializing EasyOCR for languages: ['en']
+2025-08-02 15:20:39,905 - INFO - GPU available for EasyOCR: False
+2025-08-02 15:20:39,905 - WARNING - Using CPU. Note: This module is much faster with a GPU.
+2025-08-02 15:20:43,217 - INFO - EasyOCR initialized successfully with integrated detector
+2025-08-02 15:20:43,217 - INFO - Using EasyOCR's integrated detection and recognition.
+2025-08-02 15:20:51,506 - INFO - Processing 23 raw EasyOCR results.
+2025-08-02 15:20:51,511 - INFO - Successfully processed 23 unique EasyOCR regions, skipped 0 invalid/duplicate regions.
+2025-08-02 15:20:51,518 - INFO - Plain text saved to: /content/drive/MyDrive/PolyOCR_Results/00af69e2180ec99677211a42d2eae237_plain.txt
+2025-08-02 15:20:51,525 - INFO - Formatted text saved to: /content/drive/MyDrive/PolyOCR_Results/00af69e2180ec99677211a42d2eae237_formatted.txt
+2025-08-02 15:20:51,532 - INFO - Language info saved to: /content/drive/MyDrive/PolyOCR_Results/00af69e2180ec99677211a42d2eae237_language_info.txt
+2025-08-02 15:20:51,540 - INFO - Detailed JSON output saved to: /content/drive/MyDrive/PolyOCR_Results/00af69e2180ec99677211a42d2eae237_details.json
+2025-08-02 15:20:51,547 - INFO - Detection info saved to: /content/drive/MyDrive/PolyOCR_Results/00af69e2180ec99677211a42d2eae237_detection_info.json
+2025-08-02 15:20:51,547 - INFO - OCR pipeline completed successfully!
+2025-08-02 15:20:51,547 - INFO - 
+==================================================
+2025-08-02 15:20:51,548 - INFO - Formatted OCR Output:
+2025-08-02 15:20:51,548 - INFO - ==================================================
+
+2025-08-02 15:20:51,548 - INFO - 
+==================================================
+2025-08-02 15:20:51,548 - INFO - Language Detection Summary:
+2025-08-02 15:20:51,548 - INFO - ==================================================
+
+2025-08-02 15:25:09,091 - INFO - Initialized OCR Pipeline on device: cpu
+2025-08-02 15:25:09,092 - INFO - Supported Languages:
+2025-08-02 15:25:09,093 - INFO -    en: English
+2025-08-02 15:25:09,093 - INFO -    hi: Hindi (हिंदी)
+2025-08-02 15:25:09,093 - INFO -    zh: Chinese (中文)
+2025-08-02 15:25:09,094 - INFO - Loading image: /content/drive/MyDrive/PolyOCR_Inputs/00af69e2180ec99677211a42d2eae237.jpg
+2025-08-02 15:25:09,117 - INFO - Applying OpenCV denoising...
+2025-08-02 15:25:10,883 - INFO - Using languages: ['English']
+2025-08-02 15:25:11,331 - INFO - Initializing EasyOCR for languages: ['en']
+2025-08-02 15:25:11,332 - INFO - GPU available for EasyOCR: False
+2025-08-02 15:25:11,332 - WARNING - Using CPU. Note: This module is much faster with a GPU.
+2025-08-02 15:25:14,229 - INFO - EasyOCR initialized successfully with integrated detector
+2025-08-02 15:25:14,229 - INFO - Using EasyOCR's integrated detection and recognition.
+2025-08-02 15:25:21,111 - INFO - Processing 23 raw EasyOCR results.
+2025-08-02 15:25:21,112 - ERROR - Pipeline failed: 'AdvancedTextRecognizer' object has no attribute '_perform_text_region_formatting'
+2025-08-02 15:25:21,114 - ERROR - An unexpected error occurred: 'AdvancedTextRecognizer' object has no attribute '_perform_text_region_formatting'
+2025-08-02 15:28:19,386 - INFO - Initialized OCR Pipeline on device: cpu
+2025-08-02 15:28:19,387 - INFO - Supported Languages:
+2025-08-02 15:28:19,387 - INFO -    en: English
+2025-08-02 15:28:19,387 - INFO -    hi: Hindi (हिंदी)
+2025-08-02 15:28:19,388 - INFO -    zh: Chinese (中文)
+2025-08-02 15:28:19,389 - INFO - Loading image: /content/drive/MyDrive/PolyOCR_Inputs/00af69e2180ec99677211a42d2eae237.jpg
+2025-08-02 15:28:19,408 - INFO - Applying OpenCV denoising...
+2025-08-02 15:28:20,487 - INFO - Using languages: ['English']
+2025-08-02 15:28:20,899 - INFO - Initializing EasyOCR for languages: ['en']
+2025-08-02 15:28:20,899 - INFO - GPU available for EasyOCR: False
+2025-08-02 15:28:20,900 - WARNING - Using CPU. Note: This module is much faster with a GPU.
+2025-08-02 15:28:23,695 - INFO - EasyOCR initialized successfully with integrated detector
+2025-08-02 15:28:23,696 - INFO - Using EasyOCR's integrated detection and recognition.
+2025-08-02 15:28:32,037 - INFO - Processing 23 raw EasyOCR results.
+2025-08-02 15:28:32,038 - ERROR - Pipeline failed: 'AdvancedTextRecognizer' object has no attribute '_perform_text_region_formatting'
+2025-08-02 15:28:32,042 - ERROR - An unexpected error occurred: 'AdvancedTextRecognizer' object has no attribute '_perform_text_region_formatting'
+2025-08-02 15:29:23,411 - INFO - Initialized OCR Pipeline on device: cpu
+2025-08-02 15:29:23,412 - INFO - Supported Languages:
+2025-08-02 15:29:23,412 - INFO -    en: English
+2025-08-02 15:29:23,412 - INFO -    hi: Hindi (हिंदी)
+2025-08-02 15:29:23,412 - INFO -    zh: Chinese (中文)
+2025-08-02 15:29:23,413 - INFO - Loading image: /content/drive/MyDrive/PolyOCR_Inputs/00af69e2180ec99677211a42d2eae237.jpg
+2025-08-02 15:29:23,431 - INFO - Applying OpenCV denoising...
+2025-08-02 15:29:24,501 - INFO - Using languages: ['English']
+2025-08-02 15:29:24,919 - INFO - Initializing EasyOCR for languages: ['en']
+2025-08-02 15:29:24,920 - INFO - GPU available for EasyOCR: False
+2025-08-02 15:29:24,921 - WARNING - Using CPU. Note: This module is much faster with a GPU.
+2025-08-02 15:29:27,689 - INFO - EasyOCR initialized successfully with integrated detector
+2025-08-02 15:29:27,689 - INFO - Using EasyOCR's integrated detection and recognition.
+2025-08-02 15:29:36,030 - INFO - Processing 23 raw EasyOCR results.
+2025-08-02 15:29:36,031 - INFO - Filtered 8 raw EasyOCR results due to low confidence/invalid bbox.
+2025-08-02 15:29:36,034 - INFO - Finished processing EasyOCR results. Final count: 15 unique regions. Skipped 0 duplicates/invalid.
+2025-08-02 15:29:36,041 - INFO - Plain text saved to: /content/drive/MyDrive/PolyOCR_Results/00af69e2180ec99677211a42d2eae237_plain.txt
+2025-08-02 15:29:36,047 - INFO - Formatted text saved to: /content/drive/MyDrive/PolyOCR_Results/00af69e2180ec99677211a42d2eae237_formatted.txt
+2025-08-02 15:29:36,054 - INFO - Language info saved to: /content/drive/MyDrive/PolyOCR_Results/00af69e2180ec99677211a42d2eae237_language_info.txt
+2025-08-02 15:29:36,060 - INFO - Detailed JSON output saved to: /content/drive/MyDrive/PolyOCR_Results/00af69e2180ec99677211a42d2eae237_details.json
+2025-08-02 15:29:36,075 - INFO - Detection info saved to: /content/drive/MyDrive/PolyOCR_Results/00af69e2180ec99677211a42d2eae237_detection_info.json
+2025-08-02 15:29:36,075 - INFO - OCR pipeline completed successfully!
+2025-08-02 15:29:36,076 - INFO - 
+==================================================
+2025-08-02 15:29:36,076 - INFO - Formatted OCR Output:
+2025-08-02 15:29:36,076 - INFO - ==================================================
+
+2025-08-02 15:29:36,076 - INFO - 
+==================================================
+2025-08-02 15:29:36,076 - INFO - Language Detection Summary:
+2025-08-02 15:29:36,077 - INFO - ==================================================
+
+2025-08-02 15:33:01,379 - INFO - Initialized OCR Pipeline on device: cpu
+2025-08-02 15:33:01,380 - INFO - Supported Languages:
+2025-08-02 15:33:01,380 - INFO -   en: English
+2025-08-02 15:33:01,380 - INFO -   hi: Hindi (हिंदी)
+2025-08-02 15:33:01,380 - INFO -   zh: Chinese (中文)
+2025-08-02 15:33:01,381 - WARNING - CRAFT model not found at models/craft_mlt_25k.pth. Fallback detection will be used.
+2025-08-02 15:33:01,382 - INFO - Loading image: /content/drive/MyDrive/PolyOCR_Inputs/00af69e2180ec99677211a42d2eae237.jpg
+2025-08-02 15:33:01,400 - INFO - Applying OpenCV denoising...
+2025-08-02 15:33:02,521 - ERROR - Failed to load CRAFT model: CRAFT model not found at models/craft_mlt_25k.pth
+2025-08-02 15:33:02,521 - WARNING - CRAFT detection failed: CRAFT model loading failed: CRAFT model not found at models/craft_mlt_25k.pth
+2025-08-02 15:33:02,521 - INFO - Using fallback detection...
+2025-08-02 15:33:02,521 - INFO - Using simple fallback detection...
+2025-08-02 15:33:02,530 - INFO - Using languages: ['English']
+2025-08-02 15:33:02,958 - INFO - Initializing EasyOCR for languages: ['en']
+2025-08-02 15:33:02,959 - INFO - GPU available for EasyOCR: False
+2025-08-02 15:33:02,959 - WARNING - Using CPU. Note: This module is much faster with a GPU.
+2025-08-02 15:33:07,220 - INFO - EasyOCR initialized successfully
+2025-08-02 15:33:07,222 - INFO - Recognizing text from 8 regions
+2025-08-02 15:33:09,135 - INFO - Successfully processed 8 regions, skipped 0 invalid regions
+2025-08-02 15:33:09,136 - INFO - Post-processing is enabled and applied during text recognition.
+2025-08-02 15:33:09,142 - INFO - Plain text saved to: /content/drive/MyDrive/PolyOCR_Results/00af69e2180ec99677211a42d2eae237_plain.txt
+2025-08-02 15:33:09,149 - INFO - Formatted text saved to: /content/drive/MyDrive/PolyOCR_Results/00af69e2180ec99677211a42d2eae237_formatted.txt
+2025-08-02 15:33:09,155 - INFO - Language info saved to: /content/drive/MyDrive/PolyOCR_Results/00af69e2180ec99677211a42d2eae237_language_info.txt
+2025-08-02 15:33:09,161 - ERROR - Pipeline failed: Object of type int64 is not JSON serializable
+2025-08-02 15:33:09,164 - ERROR - An unexpected error occurred: Object of type int64 is not JSON serializable
+2025-08-02 15:33:15,473 - INFO - Initialized OCR Pipeline on device: cpu
+2025-08-02 15:33:15,474 - INFO - Supported Languages:
+2025-08-02 15:33:15,474 - INFO -   en: English
+2025-08-02 15:33:15,474 - INFO -   hi: Hindi (हिंदी)
+2025-08-02 15:33:15,475 - INFO -   zh: Chinese (中文)
+2025-08-02 15:33:15,476 - INFO - Loading image: /content/drive/MyDrive/PolyOCR_Inputs/00af69e2180ec99677211a42d2eae237.jpg
+2025-08-02 15:33:15,498 - INFO - Applying OpenCV denoising...
+2025-08-02 15:33:19,583 - INFO - Successfully loaded CRAFT model from: /content/drive/MyDrive/OCR/detection/craft_mlt_25k.pth
+2025-08-02 15:33:19,589 - INFO - Performing enhanced CRAFT text detection...
+2025-08-02 15:33:19,619 - INFO - Original image size: 544x586
+2025-08-02 15:33:19,619 - INFO - Processing variant 1/4
+2025-08-02 15:33:25,014 - INFO - Variant 1, scale 1.0: found 85 boxes
+2025-08-02 15:33:25,014 - INFO - Processing variant 2/4
+2025-08-02 15:33:29,904 - INFO - Variant 2, scale 1.0: found 85 boxes
+2025-08-02 15:33:29,905 - INFO - Processing variant 3/4
+2025-08-02 15:33:35,593 - INFO - Variant 3, scale 1.0: found 82 boxes
+2025-08-02 15:33:35,593 - INFO - Processing variant 4/4
+2025-08-02 15:33:40,196 - INFO - Variant 4, scale 1.0: found 86 boxes
+2025-08-02 15:33:40,220 - INFO - After filtering: 57 unique boxes
+2025-08-02 15:33:40,220 - INFO - Final result: 57 text regions detected
+2025-08-02 15:33:40,221 - INFO - Using languages: ['English']
+2025-08-02 15:33:40,623 - INFO - Initializing EasyOCR for languages: ['en']
+2025-08-02 15:33:40,623 - INFO - GPU available for EasyOCR: False
+2025-08-02 15:33:40,623 - WARNING - Using CPU. Note: This module is much faster with a GPU.
+2025-08-02 15:33:43,400 - INFO - EasyOCR initialized successfully
+2025-08-02 15:33:43,403 - INFO - Recognizing text from 57 regions
+2025-08-02 15:33:59,544 - INFO - Successfully processed 17 regions, skipped 0 invalid regions
+2025-08-02 15:33:59,546 - INFO - Post-processing is enabled and applied during text recognition.
+2025-08-02 15:33:59,552 - INFO - Plain text saved to: /content/drive/MyDrive/PolyOCR_Results/00af69e2180ec99677211a42d2eae237_plain.txt
+2025-08-02 15:33:59,559 - INFO - Formatted text saved to: /content/drive/MyDrive/PolyOCR_Results/00af69e2180ec99677211a42d2eae237_formatted.txt
+2025-08-02 15:33:59,565 - INFO - Language info saved to: /content/drive/MyDrive/PolyOCR_Results/00af69e2180ec99677211a42d2eae237_language_info.txt
+2025-08-02 15:33:59,572 - ERROR - Pipeline failed: Object of type float32 is not JSON serializable
+2025-08-02 15:33:59,574 - ERROR - An unexpected error occurred: Object of type float32 is not JSON serializable
+2025-08-02 15:34:30,469 - INFO - Initialized OCR Pipeline on device: cpu
+2025-08-02 15:34:30,470 - INFO - Supported Languages:
+2025-08-02 15:34:30,470 - INFO -   en: English
+2025-08-02 15:34:30,470 - INFO -   hi: Hindi (हिंदी)
+2025-08-02 15:34:30,471 - INFO -   zh: Chinese (中文)
+2025-08-02 15:34:30,472 - INFO - Loading image: /content/drive/MyDrive/PolyOCR_Inputs/00af69e2180ec99677211a42d2eae237.jpg
+2025-08-02 15:34:30,490 - INFO - Applying OpenCV denoising...
+2025-08-02 15:34:34,179 - INFO - Successfully loaded CRAFT model from: /content/drive/MyDrive/OCR/detection/craft_mlt_25k.pth
+2025-08-02 15:34:34,183 - INFO - Performing enhanced CRAFT text detection...
+2025-08-02 15:34:34,204 - INFO - Original image size: 544x586
+2025-08-02 15:34:34,204 - INFO - Processing variant 1/4
+2025-08-02 15:34:39,333 - INFO - Variant 1, scale 1.0: found 85 boxes
+2025-08-02 15:34:39,334 - INFO - Processing variant 2/4
+2025-08-02 15:34:44,483 - INFO - Variant 2, scale 1.0: found 85 boxes
+2025-08-02 15:34:44,484 - INFO - Processing variant 3/4
+2025-08-02 15:34:48,872 - INFO - Variant 3, scale 1.0: found 82 boxes
+2025-08-02 15:34:48,873 - INFO - Processing variant 4/4
+2025-08-02 15:34:54,404 - INFO - Variant 4, scale 1.0: found 86 boxes
+2025-08-02 15:34:54,444 - INFO - After filtering: 57 unique boxes
+2025-08-02 15:34:54,444 - INFO - Final result: 57 text regions detected
+2025-08-02 15:34:54,445 - INFO - Using languages: ['English']
+2025-08-02 15:34:55,020 - INFO - Initializing EasyOCR for languages: ['en']
+2025-08-02 15:34:55,021 - INFO - GPU available for EasyOCR: False
+2025-08-02 15:34:55,021 - WARNING - Using CPU. Note: This module is much faster with a GPU.
+2025-08-02 15:34:57,813 - INFO - EasyOCR initialized successfully
+2025-08-02 15:34:57,836 - INFO - Recognizing text from 57 regions
+2025-08-02 15:35:14,377 - INFO - Successfully processed 17 regions, skipped 0 invalid regions
+2025-08-02 15:35:14,377 - INFO - Post-processing is enabled and applied during text recognition.
+2025-08-02 15:35:14,383 - INFO - Plain text saved to: /content/drive/MyDrive/PolyOCR_Results/00af69e2180ec99677211a42d2eae237_plain.txt
+2025-08-02 15:35:14,389 - INFO - Formatted text saved to: /content/drive/MyDrive/PolyOCR_Results/00af69e2180ec99677211a42d2eae237_formatted.txt
+2025-08-02 15:35:14,394 - INFO - Language info saved to: /content/drive/MyDrive/PolyOCR_Results/00af69e2180ec99677211a42d2eae237_language_info.txt
+2025-08-02 15:35:14,400 - ERROR - Pipeline failed: Object of type float32 is not JSON serializable
+2025-08-02 15:35:14,405 - ERROR - An unexpected error occurred: Object of type float32 is not JSON serializable
+2025-08-02 15:42:48,992 - INFO - Initialized Optimized OCR Pipeline
+2025-08-02 15:42:48,994 - INFO - Loading image: /content/drive/MyDrive/PolyOCR_Inputs/00af69e2180ec99677211a42d2eae237.jpg
+2025-08-02 15:42:49,009 - INFO - Using original image without preprocessing
+2025-08-02 15:42:49,010 - INFO - Detecting text regions
+2025-08-02 15:42:49,014 - INFO - Contour detection found 112 regions
+2025-08-02 15:42:49,015 - INFO - Recognizing text
+2025-08-02 15:42:49,015 - INFO - Using languages: ['en']
+2025-08-02 15:42:49,432 - WARNING - Using CPU. Note: This module is much faster with a GPU.
+2025-08-02 15:42:52,248 - INFO - EasyOCR initialized for languages: ['en']
+2025-08-02 15:42:52,249 - INFO - Recognizing text from 112 regions
+2025-08-02 15:43:00,200 - INFO - Successfully recognized text from 96 regions
+2025-08-02 15:43:00,222 - INFO - Plain text saved to: /content/drive/MyDrive/PolyOCR_Results/00af69e2180ec99677211a42d2eae237_plain.txt
+2025-08-02 15:43:00,230 - INFO - Formatted text saved to: /content/drive/MyDrive/PolyOCR_Results/00af69e2180ec99677211a42d2eae237_formatted.txt
+2025-08-02 15:43:00,250 - INFO - Image with boxes saved to: /content/drive/MyDrive/PolyOCR_Results/00af69e2180ec99677211a42d2eae237_boxes.jpg
+2025-08-02 15:43:00,251 - INFO - OCR pipeline completed successfully!
+2025-08-02 15:43:00,251 - INFO - 
+==================================================
+2025-08-02 15:43:00,251 - INFO - OCR Results:
+2025-08-02 15:43:00,251 - INFO - ==================================================
+
+2025-08-02 15:46:07,696 - INFO - Initialized EasyOCR Accuracy Pipeline
+2025-08-02 15:46:07,697 - INFO - Initializing EasyOCR for languages: ['en']
+2025-08-02 15:46:09,801 - INFO - Using CPU for EasyOCR
+2025-08-02 15:46:12,621 - INFO - EasyOCR initialized successfully for languages: ['en']
+2025-08-02 15:46:12,622 - INFO - Extracting text regions...
+2025-08-02 15:46:12,622 - INFO - Processing image: /content/drive/MyDrive/PolyOCR_Inputs/00af69e2180ec99677211a42d2eae237.jpg
+2025-08-02 15:46:18,921 - INFO - EasyOCR found 15 text regions
+2025-08-02 15:46:18,921 - INFO - Extracted 15 valid text regions
+2025-08-02 15:46:18,933 - INFO - Organizing and formatting text...
+2025-08-02 15:46:18,934 - ERROR - Pipeline failed: Object of type int32 is not JSON serializable
+2025-08-02 15:46:18,936 - ERROR - Failed to process image: Object of type int32 is not JSON serializable
+2025-08-02 15:47:24,730 - INFO - Initialized EasyOCR Accuracy Pipeline
+2025-08-02 15:47:24,731 - INFO - Initializing EasyOCR for languages: ['en']
+2025-08-02 15:47:26,475 - INFO - Using CPU for EasyOCR
+2025-08-02 15:47:29,242 - INFO - EasyOCR initialized successfully for languages: ['en']
+2025-08-02 15:47:29,242 - INFO - Extracting text regions...
+2025-08-02 15:47:29,242 - INFO - Processing image: /content/drive/MyDrive/PolyOCR_Inputs/00af69e2180ec99677211a42d2eae237.jpg
+2025-08-02 15:47:36,320 - INFO - EasyOCR found 15 text regions
+2025-08-02 15:47:36,320 - INFO - Extracted 15 valid text regions
+2025-08-02 15:47:36,330 - INFO - Organizing and formatting text...
+2025-08-02 15:47:36,331 - ERROR - Pipeline failed: Object of type int32 is not JSON serializable
+2025-08-02 15:47:36,333 - ERROR - Failed to process image: Object of type int32 is not JSON serializable
+2025-08-02 15:56:18,924 - __main__ - INFO - Found 1 image(s) to process
+2025-08-02 15:56:18,926 - __main__ - INFO - Initializing PolyOCR Pipeline...
+2025-08-02 15:56:18,926 - __main__ - INFO - Initialized PolyOCR Pipeline
+2025-08-02 15:56:18,927 - __main__ - INFO - Languages: ['en']
+2025-08-02 15:56:18,927 - __main__ - INFO - GPU: Auto-detect
+2025-08-02 15:56:18,928 - __main__ - INFO - Processing single image: /content/drive/MyDrive/PolyOCR_Inputs/00af69e2180ec99677211a42d2eae237.jpg
+2025-08-02 15:56:18,928 - __main__ - INFO - Starting OCR processing: /content/drive/MyDrive/PolyOCR_Inputs/00af69e2180ec99677211a42d2eae237.jpg
+2025-08-02 15:56:18,929 - __main__ - INFO - Initializing EasyOCR...
+2025-08-02 15:56:18,929 - __main__ - INFO - Prepared languages for EasyOCR: ['en']
+2025-08-02 15:56:18,929 - __main__ - INFO - No GPU detected, using CPU
+2025-08-02 15:56:20,743 - __main__ - INFO - Initializing EasyOCR with GPU=False
+2025-08-02 15:56:24,304 - __main__ - INFO - EasyOCR initialized successfully for languages: ['en']
+2025-08-02 15:56:24,304 - __main__ - INFO - Extracting text regions...
+2025-08-02 15:56:24,304 - __main__ - INFO - Processing image: /content/drive/MyDrive/PolyOCR_Inputs/00af69e2180ec99677211a42d2eae237.jpg
+2025-08-02 15:56:24,323 - __main__ - INFO - Image validation passed: /content/drive/MyDrive/PolyOCR_Inputs/00af69e2180ec99677211a42d2eae237.jpg
+2025-08-02 15:56:32,157 - __main__ - INFO - EasyOCR processing completed in 7.85s, found 15 regions
+2025-08-02 15:56:32,161 - __main__ - INFO - Extracted 15 valid text regions above confidence threshold 0.25
+2025-08-02 15:56:32,171 - __main__ - INFO - Organizing and formatting text...
+2025-08-02 15:56:32,172 - __main__ - INFO - Organizing 15 text regions
+2025-08-02 15:56:32,173 - __main__ - INFO - Organized into 14 lines with structure detection
+2025-08-02 15:56:32,180 - __main__ - INFO - Plain text saved: /content/drive/MyDrive/PolyOCR_Results/00af69e2180ec99677211a42d2eae237_plain.txt
+2025-08-02 15:56:32,187 - __main__ - INFO - Formatted text saved: /content/drive/MyDrive/PolyOCR_Results/00af69e2180ec99677211a42d2eae237_formatted.txt
+2025-08-02 15:56:32,193 - __main__ - INFO - Markdown saved: /content/drive/MyDrive/PolyOCR_Results/00af69e2180ec99677211a42d2eae237_markdown.md
+2025-08-02 15:56:32,201 - __main__ - INFO - Structured data saved: /content/drive/MyDrive/PolyOCR_Results/00af69e2180ec99677211a42d2eae237_structured.json
+2025-08-02 15:56:32,209 - __main__ - INFO - Statistics saved: /content/drive/MyDrive/PolyOCR_Results/00af69e2180ec99677211a42d2eae237_statistics.json
+2025-08-02 15:56:32,217 - __main__ - INFO - Summary saved: /content/drive/MyDrive/PolyOCR_Results/00af69e2180ec99677211a42d2eae237_summary.txt
+2025-08-02 15:56:32,238 - __main__ - INFO - Visualization saved: /content/drive/MyDrive/PolyOCR_Results/00af69e2180ec99677211a42d2eae237_visualization.jpg
+2025-08-02 15:56:32,249 - __main__ - INFO - Clean boxes image saved: /content/drive/MyDrive/PolyOCR_Results/00af69e2180ec99677211a42d2eae237_boxes.jpg
+2025-08-02 15:56:32,249 - __main__ - INFO - OCR processing completed successfully in 13.32s
+2025-08-02 15:56:32,250 - __main__ - INFO - Processed 15 text regions across 14 lines
+2025-08-02 15:56:32,250 - __main__ - INFO - PolyOCR processing completed successfully!

@@ -1,0 +1,46 @@
+# Comprehensive requirements.txt for PolyOCR Training and Pipeline
+
+# Core Deep Learning Frameworks - Pinned for compatibility
+torch==2.3.0
+torchvision==0.18.0
+torchtext==0.18.0
+torchaudio==2.3.0
+
+# Image Processing & Scientific Computing
+numpy==1.26.4
+Pillow
+opencv-python-headless==4.11.0.86 # Headless version is good for Colab
+scikit-image
+scipy
+matplotlib
+
+# Hugging Face Libraries
+transformers
+tokenizers
+datasets
+accelerate
+
+# Other Libraries
+easyocr==1.7.2
+paddleocr==2.6.0
+pytesseract
+fasttext
+pyspellchecker
+pyclipper
+# Note: some of your original dependencies like pandas, langchain, etc.
+# have been omitted for a more focused file, but you can add them back
+# as needed.
+
+# Hugging Face Models
+# The models below are downloaded by the scripts, so they aren't in requirements.txt.
+# They are listed here for reference.
+# "HuggingFaceDatasets/wikipedia_images"
+# "papluca/xlm-roberta-base-language-detection"
+# "google/flan-t5-small"
+# "facebook/nllb-200-distilled-600M"
+
+# System-level Dependencies (for Tesseract OCR)
+# These must be installed separately in your Colab notebook using apt-get
+# !sudo apt-get update
+# !sudo apt-get install tesseract-ocr
+# !sudo apt-get install tesseract-ocr-eng tesseract-ocr-hin

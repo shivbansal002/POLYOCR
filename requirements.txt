@@ -1,0 +1,148 @@
+# Comprehensive requirements.txt for PolyOCR Project
+
+# Core Deep Learning Frameworks - Pinned for broader compatibility in Colab
+# Upgrading torch to 2.6.0 to satisfy torchaudio
+torch==2.6.0
+torchvision==0.21.0 # Compatible with torch 2.6.0
+
+# Image Processing & Scientific Computing - Pinned for compatibility
+# Upgrading numpy to 2.0.0 to satisfy thinc
+numpy==2.0.0
+Pillow
+opencv-python
+scikit-image
+scipy
+
+# OCR Libraries
+paddleocr
+easyocr # Pinned EasyOCR to a known stable version
+pytesseract
+
+# Tesseract OCR (System-level, not pip installable directly)
+# Note: You need to install 'tesseract-ocr' and language packs separately
+# !sudo apt-get install tesseract-ocr
+# !sudo apt-get install tesseract-ocr-eng tesseract-ocr-hin # Example language packs
+
+# Hugging Face Transformers & related for Language Detection/Correction/Translation
+# Keep these unpinned to allow pip to find compatible latest versions with pinned torch/numpy
+transformers
+tokenizers
+accelerate
+datasets
+
+# FastText for Language Detection (in tesearact.py)
+fasttext
+
+# Spell Checker
+pyspellchecker
+
+# Other utilities (common dependencies or from your original requirements.txt)
+# Keep these unpinned unless they cause specific conflicts after the core pins
+aiohttp
+aiosignal
+annotated-types
+anyio
+async-timeout
+attrs
+blinker
+cachetools
+certifi
+chardet
+charset-normalizer
+click
+colorama
+colorlog
+contourpy
+cssselect
+cssutils
+cycler
+dataclasses-json
+distro
+einops
+et_xmlfile
+exceptiongroup
+filelock
+Flask
+flask-cors
+fonttools
+frozenlist
+fsspec
+ftfy
+GPUtil
+greenlet
+h11
+httpcore
+httpx
+huggingface-hub
+idna
+imageio
+imagesize
+itsdangerous
+Jinja2
+jiter
+joblib
+jsonpatch
+jsonpointer
+kiwisolver
+langchain
+langchain-community
+langchain-core
+langchain-openai
+langchain-text-splitters
+langsmith
+lazy_loader
+lxml
+MarkupSafe
+marshmallow
+matplotlib
+more-itertools
+mpmath
+multidict
+mypy_extensions
+networkx
+ninja
+openai
+opencv-contrib-python
+opencv-python-headless
+openpyxl
+orjson
+packaging
+paddlex
+pandas
+premailer
+prettytable
+propcache
+py-cpuinfo
+pyclipper
+pydantic
+pydantic_core
+pyparsing
+pypdfium2
+python-bidi
+python-dateutil
+pytz
+PyYAML
+regex
+requests
+requests-toolbelt
+ruamel.yaml
+ruamel.yaml.clib
+scikit-learn
+shapely
+six
+sniffio
+SQLAlchemy
+sympy
+tenacity
+threadpoolctl
+tifffile
+tiktoken
+tqdm
+typing-inspect
+typing-inspection
+typing_extensions
+ujson
+urllib3
+wcwidth
+Werkzeug
+yarl
